@@ -88,7 +88,7 @@ PORT    STATE SERVICE
 
 ### 漏洞利用
 
-[searchsploit](Security/安全工具/searchsploit.md) 查找 [Metasploit](Security/安全工具/Metasploit.md) 内包含可利用模块的漏洞
+searchsploit 查找 Metasploit 内包含可利用模块的漏洞
 
 ```
 # searchsploit Drupal 7.2 metasploit

@@ -25,7 +25,7 @@ del [var]
 #### 数据传递类型
 
 ```
-#指定 Content-Type 为 json
+# 指定 Content-Type 为 json
 headers = {'Content-Type': 'application/json'}
 ```
 
