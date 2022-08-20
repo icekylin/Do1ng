@@ -1,0 +1,44 @@
+# searchsploit
+
+## 下载安装
+
+```
+# MacOS
+brew update && brew install exploitdb
+# Kali
+sudo apt update && sudo apt -y install exploitdb
+```
+
+## 基础命令
+```
+检索相关漏洞
+searchsploit [KEYWORD]
+
+检索在线结果
+searchsploit [KEYWORD] -w
+
+将结果复制到剪切板
+searchsploit [KEYWORD] -p
+
+将结果复制到当前路径
+searchsploit [KEYWORD] -m
+
+过滤不需要的结果
+searchsploit [KEYWORD] | grep -v "[STRING]"
+
+OPTIONS:
+ -c 区分大小写
+ -j JSON格式显示结果
+ -p 显示漏洞完整路径
+ -t 只搜索利用标题（默认是标题和文件路径）
+ --colourDisable 颜色突出
+```
+## 拓展命令
+```
+检索 metasplpoit 中可能存在 poc 的结果
+searchsploit KEYWORD Metasploit
+```
+
+## 相关链接
+- [https://www.exploit-db.com/searchsploit](https://www.exploit-db.com/searchsploit)
+- [漏洞搜索工具-SearchSploit - isbase.cc/](https://isbase.cc/article/searchsploit/script-1.html)
