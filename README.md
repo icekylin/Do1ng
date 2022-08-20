@@ -51,8 +51,8 @@
 
 一些优秀的项目
 
-https://github.com/daffainfo/AllAboutBugBounty
-https://github.com/imran-parray/Mind-Maps
+- https://github.com/daffainfo/AllAboutBugBounty
+- https://github.com/imran-parray/Mind-Maps
 
 ## TODO
 - [ ] Deploy to GitHub pages
