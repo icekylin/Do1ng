@@ -2,6 +2,8 @@
 
 <!-- ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub last commit](https://img.shields.io/github/last-commit/kyl1n0/Security) ![GitHub stars](https://img.shields.io/github/stars/kyl1n0/Security) ![GitHub repo size](https://img.shields.io/github/repo-size/kyl1n0/Security) -->
 
+> 工欲善其事，必先利其器。 Security 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+
 <p align=center>
   <img src=https://img.shields.io/badge/Categories-knowledge-orange>
   <img src=https://img.shields.io/github/last-commit/kyl1n0/Security>
@@ -10,8 +12,7 @@
   <br><img src=https://s2.hdslb.com/bfs/archive/9f84c2bc342ac83a4804b019cbbac6b4e318ab51.jpg style="width:600px">
 </p>
 
-工欲善其事，必先利其器。 Security 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
-
+**注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
 - 更新较为频繁，README 随目录更新而更新，下方可见项目目录
 
