@@ -23,7 +23,7 @@
   * [Python.md](Develop/Python.md)
 * Security - 安全相关
   * Web安全
-    * [BugBounty.md](Security/Web安全/BugBounty.md) - 漏洞赏金相关
+    * [BugBounty.md](Security/Web安全/BugBounty.md)
     * [信息收集.md](Security/Web安全/信息收集.md)
     * [跨站脚本.md](Security/Web安全/跨站脚本.md)
     * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
