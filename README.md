@@ -3,13 +3,15 @@
 
 > 工欲善其事，必先利其器。 [Security](https://github.com/kyl1n0/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
-<p align=center>
-  <!-- <img src=https://img.shields.io/badge/Categories-knowledge-orange>
+![](@attachment/images/banner/README.png)
+
+<!-- <p align=center>
+  <img src=https://img.shields.io/badge/Categories-knowledge-orange>
   <img src=https://img.shields.io/github/last-commit/kyl1n0/Security>
   <img src=https://img.shields.io/github/stars/kyl1n0/Security>
-  <img src=https://img.shields.io/github/repo-size/kyl1n0/Security> -->
+  <img src=https://img.shields.io/github/repo-size/kyl1n0/Security>
   <br><img src=https://s2.hdslb.com/bfs/archive/9f84c2bc342ac83a4804b019cbbac6b4e318ab51.jpg style="">
-</p>
+</p> -->
 
 **注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
