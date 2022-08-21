@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdown-image.local.path": "/@attachment/images",
+		"markdown-image.base.fileNameFormat": "${path}/${mdname}_${timestamp}",
+		"markdown-image.base.urlEncode": false,
+		"files.exclude": {
+			".gitignore": false,
+			"obsidian": true,
+			"push.sh": true,
+			"Security.code-workspace": true
+		},
+	}
+}

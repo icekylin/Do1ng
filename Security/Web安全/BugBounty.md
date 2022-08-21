@@ -5,8 +5,11 @@
     - [3. 批量检测](#3-批量检测)
     - [4. 站点信息](#4-站点信息)
     - [5. 提交报告](#5-提交报告)
+    - [6. 批量测试](#6-批量测试)
 - [附录: 国内应急响应中心](#附录-国内应急响应中心)
 - [附录: 相关链接](#附录-相关链接)
+- [没用的小TIPS](#没用的小tips)
+  - [漏洞盒子](#漏洞盒子)
 
 ## 小白鼠日记
 
@@ -30,7 +33,6 @@ Nday寻找途径
 利用语句搜索脆弱目标,包括但不限于 fofa 等搜索引擎
 
 ![](../../@attachment/images/Security/Web安全/BugBounty_1660992777338.png) 
-![](bug)
 
 #### 2. 脆弱点检测
 
@@ -55,6 +57,11 @@ Nday寻找途径
 
 如 [如何更快的提交一份漏洞报告](https://xz.aliyun.com/t/6662),全部与文章内容反着来就行了
 
+#### 6. 批量测试
+
+仅通过URL就能验证POC时，如下思维导图
+![图 1](../../@attachment/images/Security/Web安全/BugBounty_1661096173660.png)  
+
 ## 附录: 国内应急响应中心
 
 - [SRCs|安全应急响应中心](http://0xsafe.org/index.html) 统计的比较全面的
@@ -64,7 +71,14 @@ Nday寻找途径
 - [补天互联网漏洞响应平台](https://www.butian.net/)
 - [漏洞盒子安全众测平台](https://www.vulbox.com/)
 
-## 附录: 相关链接
+## 附录: 相关链接 
 
 - [那些年挖过的SRC之我是捡漏王](https://www.freebuf.com/vuls/198327.html)
 - [如何快速上榜公益SRC](https://cloud.tencent.com/developer/article/1799928)
+
+## 没用的小TIPS
+
+不知道说些什么，看看图片注意就好
+
+### 漏洞盒子
+![图 6](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)  
