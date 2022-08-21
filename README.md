@@ -8,7 +8,7 @@
   <img src=https://img.shields.io/github/last-commit/kyl1n0/Security>
   <img src=https://img.shields.io/github/stars/kyl1n0/Security>
   <img src=https://img.shields.io/github/repo-size/kyl1n0/Security> -->
-  <br><img src=https://s2.hdslb.com/bfs/archive/9f84c2bc342ac83a4804b019cbbac6b4e318ab51.jpg style="width:600px">
+  <br><img src=https://s2.hdslb.com/bfs/archive/9f84c2bc342ac83a4804b019cbbac6b4e318ab51.jpg style="">
 </p>
 
 **注意事项**
