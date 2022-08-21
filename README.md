@@ -24,7 +24,7 @@
     * [靶机资源](Security/安全资源/靶机资源)
       * [DC1-WriteUp.md](Security/安全资源/靶机资源/DC1-WriteUp.md)
     * [安全资源.md](Security/安全资源/安全资源.md)
-  * [README.md](Security/README.md) - Security 相关
+* [README.md](README.md)
 
 ## 阅读建议
 
