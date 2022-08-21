@@ -3,33 +3,31 @@
 
 <!-- code_chunk_output -->
 
-- [0x01 基础语句](#0x01-基础语句)
-- [0x02 模块使用](#0x02-模块使用)
-  - [requests模块](#requests模块)
-    - [数据传递类型](#数据传递类型)
-    - [Session会话](#session会话)
+- [语句备忘录](#语句备忘录)
+- [一些模块](#一些模块)
+  - [requests](#requests)
 
 <!-- /code_chunk_output -->
 
-## 0x01 基础语句
+## 语句备忘录
 
 ```
 # 取消定义变量
 del [var]
 ```
 
-## 0x02 模块使用
+## 一些模块
 
-### requests模块
+### requests
 
-#### 数据传递类型
+requests 传输 post 数据时会默认使用 url 编码传输数据
+
+[Python+requests 之urlencode编码与解码](https://blog.csdn.net/weixin_43507959/article/details/106578516)
 
 ```
 # 指定 Content-Type 为 json
 headers = {'Content-Type': 'application/json'}
 ```
-
-#### Session会话
 
 ```
 # 建立会话
