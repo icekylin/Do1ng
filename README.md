@@ -1,9 +1,9 @@
-# kyl1n0 - N0tes
+# Cyber Security Knowledge Base
 ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub repo size](https://img.shields.io/github/repo-size/kyl1n0/Cyber-Security-Notes) ![GitHub last commit](https://img.shields.io/github/last-commit/kyl1n0/Cyber-Security-Notes) ![GitHub stars](https://img.shields.io/github/stars/kyl1n0/Cyber-Security-Notes)
 
 ![](https://s1.hdslb.com/bfs/article/619d97f19a40331d5e29f2fa4f21d102f860219a.jpg)
 
-工欲善其事，必先利其器。 N0t1s 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+工欲善其事，必先利其器。 Security 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
 ## 项目目录
 
