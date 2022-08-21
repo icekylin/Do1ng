@@ -27,18 +27,6 @@
   * [README.md](Security/README.md) - Security 相关
 * [README.md](README.md)
 
-```
-# 目录说明
-├─ @attachment
-│  └─ images - 图片存储
-│
-├─ Develop  - 开发相关
-│
-└─ Security - 安全相关
-   ├─ 安全工具  - 工具相关(下载/安装/基本使用/笔记)
-   └─ 安全资源  - 资源相关(知识库/论坛/漏洞库/靶机WriteUp等)
-```
-
 ## 阅读建议
 
 全文使用 [VSCode](https://azure.microsoft.com/zh-cn/products/visual-studio-code/) 排版, 生成导航目录，如果想获得更好阅读体验，可以将项目 clone 至本地阅读
