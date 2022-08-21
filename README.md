@@ -1,8 +1,6 @@
-# Security - Cyber Security Knowledge Base
-
 <!-- ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub last commit](https://img.shields.io/github/last-commit/kyl1n0/Security) ![GitHub stars](https://img.shields.io/github/stars/kyl1n0/Security) ![GitHub repo size](https://img.shields.io/github/repo-size/kyl1n0/Security) -->
 
-> 工欲善其事，必先利其器。 Security 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+> 工欲善其事，必先利其器。 [Security](https://github.com/kyl1n0/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
 <p align=center>
   <img src=https://img.shields.io/badge/Categories-knowledge-orange>
