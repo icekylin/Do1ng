@@ -1,9 +1,10 @@
 # Security - Cyber Security Knowledge Base
 ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub repo size](https://img.shields.io/github/repo-size/kyl1n0/Security) ![GitHub last commit](https://img.shields.io/github/last-commit/kyl1n0/Security) ![GitHub stars](https://img.shields.io/github/stars/kyl1n0/Security)
 
-![](https://s1.hdslb.com/bfs/article/619d97f19a40331d5e29f2fa4f21d102f860219a.jpg)
-
 工欲善其事，必先利其器。 Security 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+
+<center><img src=https://s2.hdslb.com/bfs/archive/9f84c2bc342ac83a4804b019cbbac6b4e318ab51.jpg style="width:700px"></center>
+
 
 ## 项目目录
 
