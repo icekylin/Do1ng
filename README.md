@@ -51,8 +51,8 @@
 一些优秀的项目
 
 - https://github.com/ffffffff0x/1earn
-- https://github.com/daffainfo/AllAboutBugBounty
-- https://github.com/imran-parray/Mind-Maps
+- https://github.com/riusksk/secbook
+- https://github.com/olist213/Information_Security_Books
 
 ## TODO
 - [ ] Deploy to GitHub pages

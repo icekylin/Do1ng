@@ -1,13 +1,6 @@
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
 - [语句备忘录](#语句备忘录)
-- [一些模块](#一些模块)
+- [模块备忘录](#模块备忘录)
   - [requests](#requests)
-
-<!-- /code_chunk_output -->
 
 ## 语句备忘录
 
@@ -16,7 +9,7 @@
 del [var]
 ```
 
-## 一些模块
+## 模块备忘录
 
 ### requests
 

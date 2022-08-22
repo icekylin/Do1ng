@@ -1,4 +1,6 @@
-# searchsploit
+- [下载安装](#下载安装)
+- [工具使用](#工具使用)
+- [相关链接](#相关链接)
 
 ## 下载安装
 
@@ -9,7 +11,7 @@ brew update && brew install exploitdb
 sudo apt update && sudo apt -y install exploitdb
 ```
 
-## 基础命令
+## 工具使用
 ```
 检索相关漏洞
 searchsploit [KEYWORD]
@@ -33,7 +35,6 @@ OPTIONS:
  -t 只搜索利用标题（默认是标题和文件路径）
  --colourDisable 颜色突出
 ```
-## 拓展命令
 ```
 检索 metasplpoit 中可能存在 poc 的结果
 searchsploit KEYWORD Metasploit

@@ -1,14 +1,16 @@
-# nmap
+- [下载安装](#下载安装)
+- [工具使用](#工具使用)
 
 ## 下载安装
 
 ```
-# 官网地址
-https://nmap.org/download
-# 安装
+# MacOS
 brew install nmap
-# 升级
 brew reinstall nmap
+# Windows
+https://nmap.org/download
+# Linux
+apt-get install nmap
 ```
 
-## 基础命令
+## 工具使用
