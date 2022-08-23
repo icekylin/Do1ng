@@ -23,20 +23,20 @@
   * [Python.md](Develop/Python.md)
 * Security - 安全相关
   * Web安全
-    * [BugBounty.md](Security/Web安全/BugBounty.md)
-    * [信息收集.md](Security/Web安全/信息收集.md)
-    * [跨站脚本.md](Security/Web安全/跨站脚本.md)
-    * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
+    * [BugBounty](Security/Web安全/BugBounty.md)
+    * [信息收集](Security/Web安全/信息收集.md)
+    * [跨站脚本](Security/Web安全/跨站脚本.md)
+    * [逻辑漏洞](Security/Web安全/逻辑漏洞.md)
   * 安全工具 - 安全工具 下载/安装/基本使用/笔记
     * [nuclei](Security/安全工具/nuclei.md)
-    * [BurpSuite.md](Security/安全工具/BurpSuite.md)
-    * [Metasploit.md](Security/安全工具/Metasploit.md)
-    * [nmap.md](Security/安全工具/nmap.md)
-    * [searchsploit.md](Security/安全工具/searchsploit.md)
+    * [BurpSuite](Security/安全工具/BurpSuite.md)
+    * [Metasploit](Security/安全工具/Metasploit.md)
+    * [nmap](Security/安全工具/nmap.md)
+    * [searchsploit](Security/安全工具/searchsploit.md)
   * 安全资源 - 知识库/论坛/漏洞库/靶机WriteUp等
     * [靶机资源](Security/安全资源/靶机资源)
-      * [DC1-WriteUp.md](Security/安全资源/靶机资源/DC1-WriteUp.md)
-    * [安全资源.md](Security/安全资源/安全资源.md)
+      * [DC1-WriteUp](Security/安全资源/靶机资源/DC1-WriteUp.md)
+    * [安全资源](Security/安全资源/安全资源.md)
 * [README.md](README.md)
 
 ## 阅读建议
