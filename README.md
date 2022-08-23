@@ -28,6 +28,7 @@
     * [跨站脚本.md](Security/Web安全/跨站脚本.md)
     * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
   * 安全工具 - 安全工具 下载/安装/基本使用/笔记
+    * [nuclei](Security/安全工具/nuclei.md)
     * [BurpSuite.md](Security/安全工具/BurpSuite.md)
     * [Metasploit.md](Security/安全工具/Metasploit.md)
     * [nmap.md](Security/安全工具/nmap.md)
