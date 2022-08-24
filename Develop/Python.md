@@ -1,6 +1,7 @@
 - [语句备忘录](#语句备忘录)
 - [模块备忘录](#模块备忘录)
   - [requests](#requests)
+  - [fake_useragent](#fake_useragent)
 
 ## 语句备忘录
 
@@ -33,4 +34,18 @@ session.cookies
 session.cookies["字段"]
 # 关闭会话
 session.close
+```
+
+### fake_useragent
+- 模块归类：生成随机或伪造的 UserAgent 头
+- 项目仓库：https://github.com/hellysmile/fake-useragent
+```python
+# 实例化
+from fake_useragent import UserAgent
+ua = UserAgent()
+# 伪造 chrome 浏览器 UserAgent
+# 其他可用的浏览器 firefox/safari/ie/opera
+ua.chrome
+# 随机生成 UserAgent
+ua.random
 ```

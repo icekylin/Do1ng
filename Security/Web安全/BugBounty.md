@@ -2,6 +2,7 @@
 - [相关链接](#相关链接)
 - [没用的小TIPS](#没用的小tips)
   - [漏洞盒子](#漏洞盒子)
+  - [漏洞盒子](#漏洞盒子-1)
 
 ## 国内应急响应中心
 
@@ -15,13 +16,16 @@
 ## 相关链接 
 
 - [那些年挖过的SRC之我是捡漏王](https://www.freebuf.com/vuls/198327.html)
-- [如何快速上榜公益SRC](https://cloud.tencent.com/developer/article/1799928)
-![图 3](../../@attachment/images/Security/Web安全/BugBounty_1661255241488.png)  
+- [如何快速上榜公益SRC](https://cloud.tencent.com/developer/article/1799928) 
 
 
 ## 没用的小TIPS
 
-不知道说些什么，看看图片注意就好
+### 漏洞盒子
+- 漏洞提交标题：厂商+漏洞
+- 漏洞复现：必要带截图说明
+![](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)
+![](../../@attachment/images/Security/Web安全/BugBounty_1661284525740.png)  
 
 ### 漏洞盒子
-![图 6](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)  
+- 公益漏洞条件：百度权重/移动权重>=1，或者Google权重>=3
