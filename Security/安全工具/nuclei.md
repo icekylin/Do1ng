@@ -1,6 +1,7 @@
 - [下载安装](#下载安装)
 - [工具使用](#工具使用)
   - [基本参数](#基本参数)
+  - [常用命令](#常用命令)
   - [Research-1](#research-1)
 
 工具定位
@@ -130,6 +131,22 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
     -mp, -metrics-port int              更改Nuclei默认端口（默认：9092）
 ```
 
+### 常用命令
+
+```
+# 使用模板模板扫描单个 URL
+nuclei -u example.com -t template.xml
+
+# 使用模板扫描文件内 url
+nuclei -l URL.txt -t xxx.yaml
+
+# 保存扫描结果到 result.txt
+nuclei [options] -o result.txt
+
+# 简化输出结果 重试次数5 超时时间10s
+nuclei [options] -nm -retries 5 -timeout 10
+```
+
 ### Research-1
 批量检测，达成条件，向URL发送指定GET参数获取相应返回结果
 - 请求URL：`https://example.com/search/index.php`
@@ -170,4 +187,3 @@ requests:
 ```
 nuclei -l urls.txt -t DocCMS-keyword-SQLi.yaml
 ```
-![图 1](../../@attachment/images/Security/安全工具/nuclei_1661478658136.png)  

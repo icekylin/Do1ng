@@ -20,24 +20,29 @@
 ## 项目目录
 
 * Develop - 开发相关
-  * [Python.md](Develop/Python.md)
+  * [Python.md](./Security/Develop/Python.md)
+* Integrated - 集成的一些比较杂乱的东西
+  * [Linux.md](./Security/Integrated/Linux.md)
 * Security - 安全相关
   * Web安全
-    * [BugBounty](Security/Web安全/BugBounty.md)
-    * [信息收集](Security/Web安全/信息收集.md)
-    * [跨站脚本](Security/Web安全/跨站脚本.md)
-    * [逻辑漏洞](Security/Web安全/逻辑漏洞.md)
-  * 安全工具 - 安全工具 下载/安装/基本使用/笔记
-    * [nuclei](Security/安全工具/nuclei.md)
-    * [BurpSuite](Security/安全工具/BurpSuite.md)
-    * [Metasploit](Security/安全工具/Metasploit.md)
-    * [nmap](Security/安全工具/nmap.md)
-    * [searchsploit](Security/安全工具/searchsploit.md)
-  * 安全资源 - 知识库/论坛/漏洞库/靶机WriteUp等
-    * [靶机资源](Security/安全资源/靶机资源)
-      * [DC1-WriteUp](Security/安全资源/靶机资源/DC1-WriteUp.md)
-    * [安全资源](Security/安全资源/安全资源.md)
-* [README.md](README.md)
+    * [BugBounty.md](./Security/Security/Web安全/BugBounty.md)
+    * [信息收集.md](./Security/Security/Web安全/信息收集.md)
+    * [跨站脚本.md](./Security/Security/Web安全/跨站脚本.md)
+    * [逻辑漏洞.md](./Security/Security/Web安全/逻辑漏洞.md)
+  * 安全工具 - 下载/安装/基本使用/笔记
+    * [BurpSuite.md](./Security/Security/安全工具/BurpSuite.md)
+    * [Metasploit.md](./Security/Security/安全工具/Metasploit.md)
+    * [WhatWeb.md](./Security/Security/安全工具/WhatWeb.md)
+    * [nmap.md](./Security/Security/安全工具/nmap.md)
+    * [nuclei.md](./Security/Security/安全工具/nuclei.md)
+    * [searchsploit.md](./Security/Security/安全工具/searchsploit.md)
+    * [wfuzz](./Security/Security/安全工具/wfuzz)
+    * [xray.md](./Security/Security/安全工具/xray.md)
+  * 安全资源 - 知识库/论坛/漏洞库/靶机WriteUp
+    * [靶机资源](./Security/Security/安全资源/靶机资源)
+      * [DC1-WriteUp.md](./Security/Security/安全资源/靶机资源/DC1-WriteUp.md)
+    * [安全资源.md](./Security/Security/安全资源/安全资源.md)
+* [README.md](./Security/README.md)
 
 ## 阅读建议
 
