@@ -1,0 +1,4 @@
+{
+  "markdown-image.local.path": "/@attachment/images",
+  "markdown-image.base.fileNameFormat": "{path}/${mdname}_${timestamp}11"
+}

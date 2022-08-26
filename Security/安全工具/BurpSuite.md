@@ -79,7 +79,9 @@ str = '购买'
 str.encode()
 b'\xe8\xb4\xad\xe4\xb9\xb0'
 ```
-![图 2](../../images/84ebcefacaa477a8e4c05033f7412914b9408828abd52d29ce9b81643bfc938f.png)  
+![图 2](../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
+![图 3](../../@attachment/images/Security/安全工具/BurpSuite_1661477857629.png)  
+
 
 
 ## 相关链接
