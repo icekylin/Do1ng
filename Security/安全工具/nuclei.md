@@ -170,3 +170,4 @@ requests:
 ```
 nuclei -l urls.txt -t DocCMS-keyword-SQLi.yaml
 ```
+![图 1](../../@attachment/images/Security/安全工具/nuclei_1661478658136.png)  
