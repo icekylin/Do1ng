@@ -80,9 +80,6 @@ str.encode()
 b'\xe8\xb4\xad\xe4\xb9\xb0'
 ```
 ![图 2](../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
-![图 3](../../@attachment/images/Security/安全工具/BurpSuite_1661477857629.png)  
-
-
 
 ## 相关链接
 - [一些相见恨晚的BurpSuite插件推荐](https://blog.csdn.net/weixin_37104668/article/details/104670704)

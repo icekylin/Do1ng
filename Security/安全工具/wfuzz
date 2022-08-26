@@ -15,13 +15,11 @@
 ## 下载安装
 ```
 # MacOS需要重新装pycurl
-# 1. 卸载原始存在的 openssl
-brew uninstall openssl[版本号]
-# 2. 重新安装 openssl 并且添加至环境变量
+# 1. 安装 openssl 并且添加至环境变量
 brew install openssl
 export LDFLAGS="-L/opt/homebrew/opt/openssl@3/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/openssl@3/include"
-# 3. 安装pycurl以及wfuzz
+# 2. 安装pycurl以及wfuzz
 pip uninstall pycurl
 pip install pycurl==7.43.0.1 --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include" -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
 pip install wfuzz
