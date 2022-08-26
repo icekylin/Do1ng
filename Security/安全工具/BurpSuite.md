@@ -5,6 +5,8 @@
     - [基本模块介绍](#基本模块介绍)
     - [抓取命令行数据包](#抓取命令行数据包)
     - [Autorize越权检测插件](#autorize越权检测插件)
+  - [常见问题](#常见问题)
+    - [Grep-Match 中文乱码](#grep-match-中文乱码)
   - [相关链接](#相关链接)
 
 ![图 2](../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
@@ -66,6 +68,19 @@ curl ifconfig.io
 
 - https://blog.csdn.net/weixin_45557138/article/details/120876168
 - https://blog.csdn.net/weixin_50464560/article/details/120235909
+
+## 常见问题
+
+### Grep-Match 中文乱码
+将中文转换为UTF编码，将编码后勾选Match type -> Regex 正则匹配
+```python
+# python 转换
+str = '购买'
+str.encode()
+b'\xe8\xb4\xad\xe4\xb9\xb0'
+```
+![图 2](../../images/84ebcefacaa477a8e4c05033f7412914b9408828abd52d29ce9b81643bfc938f.png)  
+
 
 ## 相关链接
 - [一些相见恨晚的BurpSuite插件推荐](https://blog.csdn.net/weixin_37104668/article/details/104670704)

@@ -3,22 +3,23 @@
   - [基本参数](#基本参数)
   - [Research-1](#research-1)
 
-> 工具定位
-> - 漏洞扫描，自定义POC
-> 
->相关链接
->- https://nuclei.projectdiscovery.io/templating-guide/protocols/http/
->- https://github.com/projectdiscovery/nuclei/blob/master/README_CN.md
+工具定位
+- 漏洞扫描，自定义POC
+
+项目仓库
+- https://github.com/projectdiscovery/nuclei
+
+相关链接
+- [官方使用文档](https://nuclei.projectdiscovery.io/templating-guide/protocols/http/)
+- [README_CN](https://github.com/projectdiscovery/nuclei/blob/master/README_CN.md)
 
 ## 下载安装
-官网地址：https://github.com/projectdiscovery/nuclei
 ```
 # MacOSX
 brew install nuclei
 # Go
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ```
-
 ## 工具使用
 
 ### 基本参数
