@@ -3,7 +3,7 @@
 
 > 工欲善其事，必先利其器。 [Security](https://github.com/kyl1n0/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
-![](@attachment/images/banner/README.png)
+![](@attachment/images/banner/README2.png)
 
 <!-- <p align=center>
   <img src=https://img.shields.io/badge/Categories-knowledge-orange>
@@ -19,30 +19,39 @@
 
 ## 项目目录
 
-* Develop - 开发相关
-  * [Python.md](./Security/Develop/Python.md)
-* Integrated - 集成的一些比较杂乱的东西
-  * [Linux.md](./Security/Integrated/Linux.md)
-* Security - 安全相关
-  * Web安全
-    * [BugBounty.md](./Security/Security/Web安全/BugBounty.md)
-    * [信息收集.md](./Security/Security/Web安全/信息收集.md)
-    * [跨站脚本.md](./Security/Security/Web安全/跨站脚本.md)
-    * [逻辑漏洞.md](./Security/Security/Web安全/逻辑漏洞.md)
-  * 安全工具 - 下载/安装/基本使用/笔记
-    * [BurpSuite.md](./Security/Security/安全工具/BurpSuite.md)
-    * [Metasploit.md](./Security/Security/安全工具/Metasploit.md)
-    * [WhatWeb.md](./Security/Security/安全工具/WhatWeb.md)
-    * [nmap.md](./Security/Security/安全工具/nmap.md)
-    * [nuclei.md](./Security/Security/安全工具/nuclei.md)
-    * [searchsploit.md](./Security/Security/安全工具/searchsploit.md)
-    * [wfuzz](./Security/Security/安全工具/wfuzz)
-    * [xray.md](./Security/Security/安全工具/xray.md)
-  * 安全资源 - 知识库/论坛/漏洞库/靶机WriteUp
-    * [靶机资源](./Security/Security/安全资源/靶机资源)
-      * [DC1-WriteUp.md](./Security/Security/安全资源/靶机资源/DC1-WriteUp.md)
-    * [安全资源.md](./Security/Security/安全资源/安全资源.md)
-* [README.md](./Security/README.md)
+### Security
+* Web安全
+  * [BugBounty.md](./Security/Web安全/BugBounty.md)
+  * [信息收集.md](./Security/Web安全/信息收集.md)
+  * [跨站脚本.md](./Security/Web安全/跨站脚本.md)
+  * [逻辑漏洞.md](./Security/Web安全/逻辑漏洞.md)
+* 安全工具
+  * ExploitTools - 利用工具
+    * [Metasploit.md](./Security/安全工具/ExploitTools/Metasploit.md)
+    * [nuclei.md](./Security/安全工具/ExploitTools/nuclei.md)
+    * [searchsploit.md](./Security/安全工具/ExploitTools/searchsploit.md)
+  * ScanTools - 扫描工具
+    * [WhatWeb.md](./Security/安全工具/ScanTools/WhatWeb.md)
+    * [nmap.md](./Security/安全工具/ScanTools/nmap.md)
+    * [wfuzz](./Security/安全工具/ScanTools/wfuzz)
+    * [xray.md](./Security/安全工具/ScanTools/xray.md)
+  * TrafficTools - 流量工具
+    * [BurpSuite.md](./Security/安全工具/TrafficTools/BurpSuite.md)
+* 安全资源
+  * 靶场资源
+    * WriteUp
+      * [DC1-WriteUp.md](./Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
+    * [靶场资源.md](./Security/安全资源/靶场资源/靶场资源.md)
+  * 学习资源
+    * [交流论坛.md](./Security/安全资源/学习资源/交流论坛.md)
+    * [安全文章.md](./Security/安全资源/学习资源/安全文章.md)
+    * [漏洞文库.md](./Security/安全资源/学习资源/漏洞文库.md)
+    * [知识文库.md](./Security/安全资源/学习资源/知识文库.md)
+
+### Develop - 开发相关
+  * [Python.md](Develop/Python.md)
+### Integrated - 集成的一些比较杂乱的东西
+  * [Linux.md](Integrated/Linux.md)
 
 ## 阅读建议
 

@@ -1,16 +1,19 @@
-- [语句备忘录](#语句备忘录)
-- [模块备忘录](#模块备忘录)
+- [Python Basic](#python-basic)
+  - [Basic statement](#basic-statement)
+- [Python Module](#python-module)
   - [requests](#requests)
   - [fake_useragent](#fake_useragent)
 
-## 语句备忘录
+## Python Basic
+
+### Basic statement
 
 ```
 # 取消定义变量
 del [var]
 ```
 
-## 模块备忘录
+## Python Module
 
 ### requests
 

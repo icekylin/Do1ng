@@ -1,8 +1,13 @@
 - [国内应急响应中心](#国内应急响应中心)
-- [相关链接](#相关链接)
-- [没用的小TIPS](#没用的小tips)
+- [一些没用的小TIPS](#一些没用的小tips)
   - [漏洞盒子](#漏洞盒子)
-  - [漏洞盒子](#漏洞盒子-1)
+  - [补天](#补天)
+
+**相关链接**
+- 那些年挖过的SRC之我是捡漏王：https://www.freebuf.com/vuls/198327.html
+- 如何快速上榜公益SRC：https://cloud.tencent.com/developer/article/1799928)
+- 重生之我是赏金猎人系列：https://github.com/J0o1ey/BountyHunterInChina
+- 刷SRC经验之批量化扫描实践：https://www.freebuf.com/sectool/176562.html
 
 ## 国内应急响应中心
 
@@ -13,13 +18,7 @@
 - [补天互联网漏洞响应平台](https://www.butian.net/)
 - [漏洞盒子安全众测平台](https://www.vulbox.com/)
 
-## 相关链接 
-
-- [那些年挖过的SRC之我是捡漏王](https://www.freebuf.com/vuls/198327.html)
-- [如何快速上榜公益SRC](https://cloud.tencent.com/developer/article/1799928) 
-
-
-## 没用的小TIPS
+## 一些没用的小TIPS
 
 ### 漏洞盒子
 - 漏洞提交标题：厂商+漏洞
@@ -27,5 +26,5 @@
 ![](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)
 ![](../../@attachment/images/Security/Web安全/BugBounty_1661284525740.png)  
 
-### 漏洞盒子
+### 补天
 - 公益漏洞条件：百度权重/移动权重>=1，或者Google权重>=3

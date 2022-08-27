@@ -9,7 +9,7 @@
     - [Grep-Match 中文乱码](#grep-match-中文乱码)
   - [相关链接](#相关链接)
 
-![图 2](../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
+![图 2](../../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
 
 ## 下载安装
 
@@ -79,7 +79,7 @@ str = '购买'
 str.encode()
 b'\xe8\xb4\xad\xe4\xb9\xb0'
 ```
-![图 2](../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
+![图 2](../../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
 
 ## 相关链接
 - [一些相见恨晚的BurpSuite插件推荐](https://blog.csdn.net/weixin_37104668/article/details/104670704)

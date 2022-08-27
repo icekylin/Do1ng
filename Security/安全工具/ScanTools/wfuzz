@@ -11,6 +11,8 @@
 相关链接：
 - [mac安装pycurl方案](https://segmentfault.com/q/1010000012674778)
 - [Python pip Could not fetch URL 解决方案](https://blog.csdn.net/liulanba/article/details/115944889)
+- [Wfuzz详细指南|模糊测试工具使用方法](https://www.ddosi.org/wfuzz-guide/)
+- [Wfuzz初上手](https://gh0st.cn/archives/2018-10-28/1)
 
 ## 下载安装
 ```
@@ -25,5 +27,21 @@ pip install pycurl==7.43.0.1 --global-option=build_ext --global-option="-L/usr/l
 pip install wfuzz
 ```
 ## 工具使用
+
+常用参数
+```bash
+# 过滤
+–hc/sc CODE #隐藏/显示响应代码
+–hl/sl NUM #ide/按响应行数显示
+–hw/sw NUM #ide/按响应的字数显示
+–hc/sc NUM #ide/按响应的字符数显示
+```
+
+目录模糊测试
+```bash
+# FUZZ 作为参数传入位置，可以替换 ?id=FUZZ
+wfuzz -w wordlist.txt http://testphp.vulnweb.com/FUZZ
+# Options
+```
 
 ### 基本使用
