@@ -37,7 +37,7 @@
     * [xray.md](Security/安全工具/ScanTools/xray.md)
   * TrafficTools - 流量工具
     * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
-* [安全资源](Security/安全资源/)
+* 安全资源
   * 靶场资源
     * WriteUp
       * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
