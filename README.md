@@ -21,32 +21,33 @@
 
 ### Security
 * Web安全
-  * [BugBounty.md](./Security/Web安全/BugBounty.md)
-  * [信息收集.md](./Security/Web安全/信息收集.md)
-  * [跨站脚本.md](./Security/Web安全/跨站脚本.md)
-  * [逻辑漏洞.md](./Security/Web安全/逻辑漏洞.md)
+  * [BugBounty.md](Security/Web安全/BugBounty.md)
+  * [信息收集.md](Security/Web安全/信息收集.md)
+  * [跨站脚本.md](Security/Web安全/跨站脚本.md)
+  * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
 * 安全工具
   * ExploitTools - 利用工具
-    * [Metasploit.md](./Security/安全工具/ExploitTools/Metasploit.md)
-    * [nuclei.md](./Security/安全工具/ExploitTools/nuclei.md)
-    * [searchsploit.md](./Security/安全工具/ExploitTools/searchsploit.md)
+    * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
+    * [nuclei.md](Security/安全工具/ExploitTools/nuclei.md)
+    * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
   * ScanTools - 扫描工具
-    * [WhatWeb.md](./Security/安全工具/ScanTools/WhatWeb.md)
-    * [nmap.md](./Security/安全工具/ScanTools/nmap.md)
-    * [wfuzz](./Security/安全工具/ScanTools/wfuzz)
-    * [xray.md](./Security/安全工具/ScanTools/xray.md)
+    * [WhatWeb.md](Security/安全工具/ScanTools/WhatWeb.md)
+    * [nmap.md](Security/安全工具/ScanTools/nmap.md)
+    * [wfuzz](Security/安全工具/ScanTools/wfuzz)
+    * [xray.md](Security/安全工具/ScanTools/xray.md)
   * TrafficTools - 流量工具
-    * [BurpSuite.md](./Security/安全工具/TrafficTools/BurpSuite.md)
+    * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
 * 安全资源
   * 靶场资源
     * WriteUp
-      * [DC1-WriteUp.md](./Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
-    * [靶场资源.md](./Security/安全资源/靶场资源/靶场资源.md)
+      * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
+    * [靶场资源.md](Security/安全资源/靶场资源/靶场资源.md)
   * 学习资源
-    * [交流论坛.md](./Security/安全资源/学习资源/交流论坛.md)
-    * [安全文章.md](./Security/安全资源/学习资源/安全文章.md)
-    * [漏洞文库.md](./Security/安全资源/学习资源/漏洞文库.md)
-    * [知识文库.md](./Security/安全资源/学习资源/知识文库.md)
+    * [交流论坛.md](Security/安全资源/学习资源/交流论坛.md)
+    * [安全文章.md](Security/安全资源/学习资源/安全文章.md)
+    * [漏洞文库.md](Security/安全资源/学习资源/漏洞文库.md)
+    * [知识文库.md](Security/安全资源/学习资源/知识文库.md)
+  * [面试相关.md](Security/安全资源/面试相关.md)
 
 ### Develop - 开发相关
   * [Python.md](Develop/Python.md)
