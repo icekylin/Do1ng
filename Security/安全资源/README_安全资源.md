@@ -9,5 +9,5 @@
   * [WriteUp/](./安全资源/靶场资源/WriteUp)
     * [DC1-WriteUp.md](./安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
   * [靶场资源.md](./安全资源/靶场资源/靶场资源.md)
-* [INDEX.md](./安全资源/INDEX.md)
+* [README.md](./安全资源/INDEX.md)
 * [面试相关.md](./安全资源/面试相关.md)
