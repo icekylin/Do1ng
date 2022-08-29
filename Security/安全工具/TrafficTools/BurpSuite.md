@@ -6,13 +6,13 @@
 ![图 2](../../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
 
 下载安装
-```
+```diff
 # MacOS
 # 将BurpSuiteLoader.jar、burp-keygen-scz.jar 移动至 /Applications/Burp Suite Professional.app/Contents/Resources/app
 # 编辑 /Applications/Burp Suite Professional.app/Contents/Info.plist 插入以下内容
 <string>-Dexe4j.moduleName=$APP_PACKAGE</string>
-<string>-noverify</string>  
-<string>-javaagent:$APP_PACKAGE/Contents/Resources/app/BurpSuiteLoader.jar</string>
+++ <string>-noverify</string>  
+++ <string>-javaagent:$APP_PACKAGE/Contents/Resources/app/BurpSuiteLoader.jar</string>
 
 # 安装 java 环境
 brew tap adoptopenjdk/openjdk

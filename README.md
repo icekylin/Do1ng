@@ -27,6 +27,8 @@
   * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
 * 安全工具
   * ExploitTools - 利用工具
+    * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
+    * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
     * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
     * [nuclei.md](Security/安全工具/ExploitTools/nuclei.md)
     * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
@@ -40,6 +42,19 @@
 * 安全资源
   * 靶场资源
     * WriteUp
+      * [DC1-WriteUp.md](./安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
+    * [靶场资源.md](./安全资源/靶场资源/靶场资源.md)
+      * 分类靶场
+      * 集成靶场
+      * 在线靶场
+  * [学习资源.md](./安全资源/学习资源.md)
+    * 安全文章
+    * 社区资源
+    * 面试相关
+    * 暂未分类
+* 安全资源
+  * 靶场资源
+    * WriteUp
       * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
     * [靶场资源.md](Security/安全资源/靶场资源/靶场资源.md)
   * 学习资源
@@ -50,9 +65,13 @@
   * [面试相关.md](Security/安全资源/面试相关.md)
 
 ### Develop - 开发相关
-  * [Python.md](Develop/Python.md)
+* [Python.md](Develop/Python.md)
+
 ### Integrated - 集成的一些比较杂乱的东西
-  * [Linux.md](Integrated/Linux.md)
+* [Git.md](./Integrated/Git.md)
+* [Linux.md](./Integrated/Linux.md)
+* [Mac-Plan.md](./Integrated/Mac-Plan.md)
+* [VSCode-Plan.md](./Integrated/VSCode-Plan.md)
 
 ## 阅读建议
 
@@ -64,12 +83,11 @@
 
 最后希望这个仓库能帮助到你。
 
-一些优秀的项目
-
+## 一些优秀的项目
 - https://github.com/ffffffff0x/1earn
 - https://github.com/riusksk/secbook
 - https://github.com/olist213/Information_Security_Books
 
 ## TODO
-- [ ] Deploy to GitHub pages
+- [ ] Deploy to `GitHub pages` or `GitBook`
 - [ ] Make a Little Progress Every Day
