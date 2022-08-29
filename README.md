@@ -21,10 +21,11 @@
 
 ### Security
 * Web安全
-  * [BugBounty.md](Security/Web安全/BugBounty.md)
-  * [信息收集.md](Security/Web安全/信息收集.md)
   * [跨站脚本.md](Security/Web安全/跨站脚本.md)
   * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
+  * [信息收集.md](Security/Web安全/信息收集.md)
+  * [BugBounty.md](Security/Web安全/BugBounty.md)
+  * [SQLinject.md](Security/Web安全/SQLinject.md)
 * 安全工具
   * ExploitTools - 利用工具
     * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
@@ -52,17 +53,6 @@
     * 社区资源
     * 面试相关
     * 暂未分类
-* 安全资源
-  * 靶场资源
-    * WriteUp
-      * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
-    * [靶场资源.md](Security/安全资源/靶场资源/靶场资源.md)
-  * 学习资源
-    * [交流论坛.md](Security/安全资源/学习资源/交流论坛.md)
-    * [安全文章.md](Security/安全资源/学习资源/安全文章.md)
-    * [漏洞文库.md](Security/安全资源/学习资源/漏洞文库.md)
-    * [知识文库.md](Security/安全资源/学习资源/知识文库.md)
-  * [面试相关.md](Security/安全资源/面试相关.md)
 
 ### Develop - 开发相关
 * [Python.md](Develop/Python.md)
