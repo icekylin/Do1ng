@@ -2,6 +2,7 @@
 - [一些没用的小TIPS](#一些没用的小tips)
   - [漏洞盒子](#漏洞盒子)
   - [补天](#补天)
+- [公开数据](#公开数据)
 
 **相关链接**
 - 那些年挖过的SRC之我是捡漏王：https://www.freebuf.com/vuls/198327.html
@@ -28,3 +29,7 @@
 
 ### 补天
 - 公益漏洞条件：百度权重/移动权重>=1，或者Google权重>=3
+
+## 公开数据
+- HackOne：https://github.com/ARPSyndicate/bug-bounty-recon-dataset
+- 补天：https://github.com/LangziFun/BuTian_Spider
