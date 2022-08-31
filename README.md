@@ -1,6 +1,6 @@
 <!-- # Security - Cyber Security Notes
 ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub last commit](https://img.shields.io/github/last-commit/moekylin/Security) ![GitHub stars](https://img.shields.io/github/stars/moekylin/Security) ![GitHub repo size](https://img.shields.io/github/repo-size/moekylin/Security) -->
-
+> 工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 <p align=center>
   <img src="@attachment/images/banner/README.png">
   <img src=https://img.shields.io/badge/Categories-knowledge-orange>
@@ -9,11 +9,13 @@
   <img src=https://img.shields.io/github/repo-size/moekylin/Security><br>
 </p>
 
-- 工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+**注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
 - 更新较为频繁，README 随目录更新而更新，下方可见项目目录
 
-## Security
+## 项目目录
+
+### Security
 * Web安全
   * [跨站脚本.md](Security/Web安全/跨站脚本.md)
   * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
@@ -48,13 +50,13 @@
     * 面试相关
     * 暂未分类
 
-## Integrated - 集成的一些比较杂乱的东西
+### Integrated - 集成的一些比较杂乱的东西
 * [Git.md](./Integrated/Git.md)
 * [Linux.md](./Integrated/Linux.md)
 * [Mac-Plan.md](./Integrated/Mac-Plan.md)
 * [VSCode-Plan.md](./Integrated/VSCode-Plan.md)
 
-## Develop - 开发相关
+### Develop - 开发相关
 * [Python.md](Develop/Python.md)
 
 ## 阅读建议
