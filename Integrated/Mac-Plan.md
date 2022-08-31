@@ -1,4 +1,7 @@
 
+## Quick Plan
+
+https://kylin.moe/posts/ec8e83e4dd2d/
 
 ## Efficiency tools
 
