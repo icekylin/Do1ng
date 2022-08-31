@@ -1,16 +1,19 @@
 <!-- # Security - Cyber Security Notes
 ![Categories](https://img.shields.io/badge/Categories-knowledge-orange) ![GitHub last commit](https://img.shields.io/github/last-commit/moekylin/Security) ![GitHub stars](https://img.shields.io/github/stars/moekylin/Security) ![GitHub repo size](https://img.shields.io/github/repo-size/moekylin/Security) -->
-> 工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 <p align=center>
-  <img src="@attachment/images/banner/README.png">
+  <img src="@attachment/images/banner/README.png" style="width:600px"><br>
   <img src=https://img.shields.io/badge/Categories-knowledge-orange>
   <img src=https://img.shields.io/github/last-commit/moekylin/Security>
   <img src=https://img.shields.io/github/stars/moekylin/Security>
-  <img src=https://img.shields.io/github/repo-size/moekylin/Security><br>
+  <img src=https://img.shields.io/github/repo-size/moekylin/Security>
 </p>
+
+---
+工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
 **注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
+- 目前包含：安全工具、安全资源、Web安全等相关笔记资源
 - 更新较为频繁，README 随目录更新而更新，下方可见项目目录
 
 ## 项目目录
