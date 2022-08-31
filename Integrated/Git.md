@@ -26,3 +26,12 @@ git commit -m "$(date)"
 git remote rm origin
 git remote add origin git@github.com:moekylin/blog.git
 ```
+
+生成公钥与github连接
+```
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+git config --global user.name "moekylin"
+git config --global user.email "moekylin@qq.com"
+git config --list
+```
