@@ -6,10 +6,12 @@
   <img src=https://img.shields.io/github/last-commit/moekylin/Security>
   <img src=https://img.shields.io/github/stars/moekylin/Security>
   <img src=https://img.shields.io/github/repo-size/moekylin/Security>
+  <img src="@attachment/images/banner/shimahara.gif" style="width:70px">
 </p>
 
 ---
-工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+
+>  工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
 **注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
