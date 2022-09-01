@@ -32,7 +32,6 @@
     * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
     * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
     * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
-    * [nuclei.md](Security/安全工具/ExploitTools/nuclei.md)
     * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
   * ScanTools - 扫描工具
     * [WhatWeb.md](Security/安全工具/ScanTools/WhatWeb.md)
@@ -40,6 +39,7 @@
     * [wfuzz](Security/安全工具/ScanTools/wfuzz)
     * [xray.md](Security/安全工具/ScanTools/xray.md)
     * [Observer_ward](Security/安全工具/ScanTools/observer_ward.md)
+    * [nuclei.md](Security/安全工具/ScanTools/nuclei.md)
   * TrafficTools - 流量工具
     * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
   * [Toolkit](Security/安全工具/Toolkit.md) - 新增了一些暂未使用过的工具

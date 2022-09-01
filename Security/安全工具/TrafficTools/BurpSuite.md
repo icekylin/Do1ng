@@ -16,7 +16,7 @@
 
 # 安装 java 环境
 brew tap adoptopenjdk/openjdk
-brew  install cask adoptopenjdk11
+brew install cask adoptopenjdk11
 
 # 运行注册机
 cd /Applications/Burp Suite Professional.app/Contents/Resources/app
