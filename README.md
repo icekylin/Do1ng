@@ -39,8 +39,10 @@
     * [nmap.md](Security/安全工具/ScanTools/nmap.md)
     * [wfuzz](Security/安全工具/ScanTools/wfuzz)
     * [xray.md](Security/安全工具/ScanTools/xray.md)
+    * [Observer_ward](Security/安全工具/ScanTools/observer_ward.md)
   * TrafficTools - 流量工具
     * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
+  * [Toolkit](Security/安全工具/Toolkit.md) - 新增了一些暂未使用过的工具
 * 安全资源
   * 靶场资源
     * WriteUp
