@@ -2,6 +2,7 @@
 - [公开报告](#公开报告)
 - [国内应急响应中心](#国内应急响应中心)
 - [TIPS](#tips)
+- [edusrc](#edusrc)
 
 **相关链接**
 - 那些年挖过的SRC之我是捡漏王：https://www.freebuf.com/vuls/198327.html
@@ -38,3 +39,9 @@
 - 补天
   - 公益漏洞条件：百度权重/移动权重>=1，或者Google权重>=3
   - [关于补天SRC小白入门详细介绍](https://blog.csdn.net/qq_37113223/article/details/111916474)
+
+## edusrc
+- edusrc挖掘心得: https://unsafe.sh/go-106113.html
+- 我的edu.SRC挖掘日常: http://www.hackdig.com/11/hack-186840.htm
+- 记一次edusrc密码重置挖掘发现的通用漏洞: https://blog.ainiyun.cn/websafe/100.html
+- SRC实战|记一次edusrc挖掘艰难Getshell: 

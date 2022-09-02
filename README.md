@@ -84,3 +84,8 @@
 ## TODO
 - [ ] Deploy to `GitHub pages` or `GitBook`
 - [ ] Make a Little Progress Every Day
+
+## 关于学习
+善用搜索引擎查找资料
+- https://www.cxymm.net/
+- https://www.wekghi.com/
