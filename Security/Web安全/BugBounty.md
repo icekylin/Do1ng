@@ -41,7 +41,11 @@
   - [关于补天SRC小白入门详细介绍](https://blog.csdn.net/qq_37113223/article/details/111916474)
 
 ## edusrc
-- edusrc挖掘心得: https://unsafe.sh/go-106113.html
-- 我的edu.SRC挖掘日常: http://www.hackdig.com/11/hack-186840.htm
-- 记一次edusrc密码重置挖掘发现的通用漏洞: https://blog.ainiyun.cn/websafe/100.html
-- SRC实战|记一次edusrc挖掘艰难Getshell: 
+- [记一次edusrc密码重置挖掘发现的通用漏洞](https://blog.ainiyun.cn/websafe/100.html) - 逻辑漏洞
+- [获取edusrc证书的小窍门](https://www.cxymm.net/article/qq_53101392/125126482) - 小程序入手
+- [十五分钟水edusrc证书](https://www.cxymm.net/article/weixin_52961098/126302209) - 信息泄漏
+- [小白快速入门src挖掘（以edusrc平台为例](https://forum.90sec.com/t/topic/2069) - 信息收集与框架漏洞
+- [我的edu.SRC挖掘日常](http://www.hackdig.com/11/hack-186840.htm) - 信息收集与逻辑漏洞
+- [记一次从信息泄露到密码重置&&挖掘思路](https://www.adminxe.com/596.html) - 信息收集 -> 逻辑漏洞
+- [渗透实战之教育SRC挖掘经验](https://blog.csdn.net/m0_59991869/article/details/120723298) - 信息搜集的广度决定了攻击的广度，知识面的广度决定了攻击的深度。
+- [【渗透经验】一次挖掘SRC漏洞—— 从0到有](https://mp.weixin.qq.com/s?src=11&timestamp=1662101638&ver=4019&signature=Dn5ORVztjNn7U93HiU8V3AcqUDo27twIiQ3EIb2uBXJ5Zl72QquuezacI-*U9khfasj396cv7*iKsrHSykMWsBSaeYYVZ4Jx*ARgQm7UsNPvIHffGdwEv0zLzYQk9p9o&new=1) - 信息收集 -> FUZZ -> SQLinject
