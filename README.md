@@ -22,24 +22,25 @@
 
 ### Security
 * Web安全
+  * 逻辑漏洞
+    * [任意密码重置.md](Security/Web安全/逻辑漏洞/任意密码重置.md)
+    * [IDOR.md](Security/Web安全/逻辑漏洞/IDOR.md)
   * [跨站脚本.md](Security/Web安全/跨站脚本.md)
-  * [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md)
   * [信息收集.md](Security/Web安全/信息收集.md)
   * [BugBounty.md](Security/Web安全/BugBounty.md)
   * [SQLinject.md](Security/Web安全/SQLinject.md)
 * 安全工具
   * ExploitTools - 利用工具
-    * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
-    * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
     * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
     * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
   * ScanTools - 扫描工具
-    * [WhatWeb.md](Security/安全工具/ScanTools/WhatWeb.md)
     * [nmap.md](Security/安全工具/ScanTools/nmap.md)
     * [wfuzz](Security/安全工具/ScanTools/wfuzz)
     * [xray.md](Security/安全工具/ScanTools/xray.md)
     * [Observer_ward](Security/安全工具/ScanTools/observer_ward.md)
     * [nuclei.md](Security/安全工具/ScanTools/nuclei.md)
+    * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
+    * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
   * TrafficTools - 流量工具
     * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
   * [Toolkit](Security/安全工具/Toolkit.md) - 新增了一些暂未使用过的工具
