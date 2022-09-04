@@ -65,7 +65,12 @@
 * [VSCode-Plan.md](./Integrated/VSCode-Plan.md)
 
 ### Develop - 开发相关
-* [Python.md](Develop/Python.md)
+* Python
+  * 笔记
+    * [Python.md](Develop/Python.md)
+* Golang
+  * 笔记
+    * #TODO
 
 ## 阅读建议
 
