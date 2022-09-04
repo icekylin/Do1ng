@@ -5,6 +5,7 @@
 - [edusrc](#edusrc)
 
 **相关链接**
+
 - 那些年挖过的SRC之我是捡漏王：https://www.freebuf.com/vuls/198327.html
 - 如何快速上榜公益SRC：https://cloud.tencent.com/developer/article/1799928)
 - 重生之我是赏金猎人系列：https://github.com/J0o1ey/BountyHunterInChina
@@ -13,10 +14,12 @@
 - 记一次公益SRC上分思路：https://kylin.moe/posts/80e25f51ea34/ （不看也彳亍）
 
 ## 公开数据
+
 - HackOne：https://github.com/ARPSyndicate/bug-bounty-recon-dataset
 - 补天：https://github.com/LangziFun/BuTian_Spider
 
 ## 公开报告
+
 - https://pentester.land/list-of-bug-bounty-writeups.html
 - https://wy.zone.ci/bugs.php
 
@@ -30,22 +33,25 @@
 - [漏洞盒子安全众测平台](https://www.vulbox.com/)
 
 ## TIPS
+
 - 漏洞盒子
+
   - 漏洞提交标题：厂商+漏洞
   - 漏洞复现：必要带截图说明
-  ![](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)
-  ![](../../@attachment/images/Security/Web安全/BugBounty_1661284525740.png)  
-
+    ![](../../@attachment/images/Security/Web安全/BugBounty_1661093530932.png)
+    ![](../../@attachment/images/Security/Web安全/BugBounty_1661284525740.png)
 - 补天
+
   - 公益漏洞条件：百度权重/移动权重>=1，或者Google权重>=3
   - [关于补天SRC小白入门详细介绍](https://blog.csdn.net/qq_37113223/article/details/111916474)
 
 ## edusrc
+
 - [记一次edusrc密码重置挖掘发现的通用漏洞](https://blog.ainiyun.cn/websafe/100.html) - 逻辑漏洞
 - [获取edusrc证书的小窍门](https://www.cxymm.net/article/qq_53101392/125126482) - 小程序入手
 - [十五分钟水edusrc证书](https://www.cxymm.net/article/weixin_52961098/126302209) - 信息泄漏
 - [小白快速入门src挖掘（以edusrc平台为例](https://forum.90sec.com/t/topic/2069) - 信息收集与框架漏洞
 - [我的edu.SRC挖掘日常](http://www.hackdig.com/11/hack-186840.htm) - 信息收集与逻辑漏洞
-- [记一次从信息泄露到密码重置&&挖掘思路](https://www.adminxe.com/596.html) - 信息收集 -> 逻辑漏洞
+- [记一次从信息泄露到密码重置&amp;&amp;挖掘思路](https://www.adminxe.com/596.html) - 信息收集 -> 逻辑漏洞
 - [渗透实战之教育SRC挖掘经验](https://blog.csdn.net/m0_59991869/article/details/120723298) - 信息搜集的广度决定了攻击的广度，知识面的广度决定了攻击的深度。
 - [【渗透经验】一次挖掘SRC漏洞—— 从0到有](https://mp.weixin.qq.com/s?src=11&timestamp=1662101638&ver=4019&signature=Dn5ORVztjNn7U93HiU8V3AcqUDo27twIiQ3EIb2uBXJ5Zl72QquuezacI-*U9khfasj396cv7*iKsrHSykMWsBSaeYYVZ4Jx*ARgQm7UsNPvIHffGdwEv0zLzYQk9p9o&new=1) - 信息收集 -> FUZZ -> SQLinject

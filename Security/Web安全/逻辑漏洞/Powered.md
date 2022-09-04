@@ -1,71 +1,18 @@
 - [逻辑漏洞概述](#逻辑漏洞概述)
-- [密码找回 #TODO](#密码找回-todo)
-  - [暴力破解](#暴力破解)
-  - [凭证泄露](#凭证泄露)
-  - [会话混淆](#会话混淆)
-  - [邮箱弱token](#邮箱弱token)
-  - [用户凭证有效性](#用户凭证有效性)
-  - [接收端可篡改](#接收端可篡改)
-  - [Others](#others)
-  - [参考链接](#参考链接)
 - [绕过授权](#绕过授权)
   - [漏洞报告 (Hackerone)](#漏洞报告-hackerone)
 - [接口泄露 #TODO](#接口泄露-todo)
   - [一个登录框可以做什么](#一个登录框可以做什么)
 - [越权漏洞 #TODO](#越权漏洞-todo)
 
-## 逻辑漏洞概述
-IDOR，Insecure Direct Object reference，即"不安全的直接对象引用"，场景为基于用户提供的输入对象进行访问时，未进行权限验证。IDOR漏洞其实在越权（Broken Access Control）漏洞的范畴之内，也可以说是逻辑漏洞，或是访问控制漏洞，国内通常被称为越权漏洞。
-
 **相关链接**
+
 - https://cn-sec.com/archives/1171492.html
 - https://vickieli.medium.com/intro-to-idor-9048453a3e5d
 
-## 密码找回 #TODO
-**相关链接**
-- https://wooyun.kieran.top/#!/drops/494.%E5%AF%86%E7%A0%81%E6%89%BE%E5%9B%9E%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E%E6%80%BB%E7%BB%93
+## 逻辑漏洞概述
 
-### 暴力破解
-混淆手机号码字段爆破: 
-- [微信任意用户密码修改漏洞](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2012-011720)
-修改X-Forwarded-By来源地址爆破:
-- [医疗安全之医事通任意手机号注册任意密码重置（绕过多次爆破显示繁忙） ](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2016-0216112)
-
-### 凭证泄露
-数据包返回重置链接相关凭证:
-- [天天网任意账户密码重置（二）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2014-058210)
-- [走秀网秀团任意密码修改缺陷](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2012-05630)
-密保泄露在页面内:
-- [sohu邮箱任意用户密码重置](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2012-04728)
-数据包返回加密凭证字段(手机号/验证码):
-- [新浪某站任意用户密码修改（验证码与取回逻辑设计不当）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2014-085124)
-
-### 会话混淆
-创建被攻击者会话重制密码:
-- [M1905电影网某重要站点任意密码重置漏洞（已入官方账号） ](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2016-0225958)
-- [OPPO手机重置任意账户密码（3）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2014-053349)
-
-### 邮箱弱token
-重置链接为Unix时间戳:
-- [奇虎360任意用户密码修改漏洞](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2012-08333)
-重置链接为普通时间戳:
-- [中兴某网站任意用户密码重置漏洞（经典设计缺陷案例）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2015-090226)
-
-### 用户凭证有效性
-重置链接token未绑定用户:
-- [第二次重置OPPO手机官网任意账户密码（秒改）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2014-053079)
-
-### 接收端可篡改
-重置凭证接收端未绑定用户+确认修改密码时未绑定用户:
-- [OPPO官网用户密码重置等漏洞大礼包一个5）任意用户密码重置（二）](https://wy.zone.ci/bug_detail.php?wybug_id=wooyun-2013-019649)
-
-### Others
-- 应数据包 JSON 内标识状态为 True
-- 重置密码链接的 token/username
-
-### 参考链接
-- 乌云网案例
-- 
+IDOR，Insecure Direct Object reference，即"不安全的直接对象引用"，场景为基于用户提供的输入对象进行访问时，未进行权限验证。IDOR漏洞其实在越权（Broken Access Control）漏洞的范畴之内，也可以说是逻辑漏洞，或是访问控制漏洞，国内通常被称为越权漏洞。
 
 ## 绕过授权
 
@@ -80,8 +27,9 @@ HTTP 参数污染
 ```
 
 - 在末尾添加参数
+
 ```
-GET /api_v1/messages --> 401 
+GET /api_v1/messages --> 401
 GET /api_v1/messages?user_id=victim_uuid --> 200
 ```
 
@@ -117,7 +65,7 @@ GET /api_v1/messages?user_id=YOUR_USER_ID[]&user_id=ANOTHER_USERS_ID[]
 
 - 用 JSON 对象嵌套 ID
 
-``` 
+```
 {“id”:111} --> 401 Unauthriozied
 {“id”:{“id”:111}} --> 200 OK
 ```
@@ -171,17 +119,16 @@ GET /api/users/. HTTP/1.1
 - 使用BurpSuite autorize拓展
 - 如果这些都不起作用，那就使用你所能想到的方式，到处去看看
 
-
 ### 漏洞报告 (Hackerone)
 
 - [IDOR to delete images from other stores](https://hackerone.com/reports/404797)
 - [IDOR in changing shared file name](https://hackerone.com/reports/547663)
 - [User uploaded portfolio files can be accessed by any user even after deleted](https://hackerone.com/reports/300179)
 - [IDOR and statistics leakage in Orders](https://hackerone.com/reports/544329)
-- [I.D.O.R To Order,Book,Buy,reserve On YELP FOR FREE (UNAUTHORIZED USE OF OTHER USER'S CREDIT CARD)](https://hackerone.com/reports/391092)
+- [I.D.O.R To Order,Book,Buy,reserve On YELP FOR FREE (UNAUTHORIZED USE OF OTHER USER&#39;S CREDIT CARD)](https://hackerone.com/reports/391092)
 - [IDOR allow access to payments data of any user](https://hackerone.com/reports/751577)
 - [IDOR allow to extract all registered email](https://hackerone.com/reports/302485)
-- [IDOR at https://account.mackeeper.com/at/load-reports/profile/<profile_id> leaks information about devices/licenses](https://hackerone.com/reports/783117)
+- [IDOR at https://account.mackeeper.com/at/load-reports/profile/profile_id leaks information about devices/licenses](https://hackerone.com/reports/783117)
 - [IDOR bug to See hidden slowvote of any user even when you dont have access right](https://hackerone.com/reports/661978)
 - [IDOR on update user preferences](https://hackerone.com/reports/854290)
 - [idor on upload profile functionality](https://hackerone.com/reports/741683)
@@ -195,16 +142,18 @@ GET /api/users/. HTTP/1.1
 
 接口中的信息泄露，利用接口
 
-![图 2](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087136881.png)  
+![图 2](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087136881.png)
 
-![图 3](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087222310.png)  
+![图 3](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087222310.png)
 
 接口 FUZZ 模糊测试可能包含的接口。
 
-![图 4](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087247927.png)  
+![图 4](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087247927.png)
 
-![图 5](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087592488.png)  
+![图 5](../../@attachment/images/Security/Web安全/逻辑漏洞_1661087592488.png)
 
 ## 越权漏洞 #TODO
+
 **相关链接**
+
 - https://www.freebuf.com/vuls/223500.html
