@@ -4,6 +4,7 @@
 > 跨平台社区 网络 CMS 指纹识别工具 https://github.com/0x727/ObserverWard
 
 **下载安装**
+
 ```bash
 # MacOS
 brew install observer_ward
@@ -29,7 +30,7 @@ cargo build --target x86_64-unknown-linux-musl --release --all-features
   - macOS: /Users/Alice/Library/Application Support/observer_ward/web_fingerprint_v3.json
 
 更新插件
-- 使用 --uodate_plugins 从指纹库下载插件压缩包到用户配置目录
+- 使用 --update_plugins 从指纹库下载插件压缩包到用户配置目录
 - 更新会删除原来的目录并且覆盖
 - 插件默认保存路径
   - Windows: C:\Users\Alice\AppData\Roaming\observer_ward\plugins

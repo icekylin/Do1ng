@@ -2,6 +2,7 @@
 > 基于 Python 的 Web 目录扫描器 
 
 下载安装
+
 ```bash
 git clone https://github.com/H4ckForJob/dirmap.git && cd dirmap && python3 -m pip install -r requirement.txt
 ```

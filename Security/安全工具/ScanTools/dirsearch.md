@@ -1,10 +1,11 @@
-- [常用参数](#常用参数)
+- [常用命令](#常用命令)
 - [Example-1 大范围扫描](#example-1-大范围扫描)
 - [Example-2 精确扫描](#example-2-精确扫描)
 
 > 基于 Python 的 Web 目录扫描器 https://github.com/maurosoria/dirsearch
 
 下载安装
+
 ```bash
 # 下载最新版dirsearch
 git clone https://github.com/maurosoria/dirsearch.git
@@ -15,7 +16,8 @@ ln -s /Users/kylin/Penetration/ScanTools/dirsearch/dirsearch.py /usr/local/bin/d
 相关链接
 - https://www.sqlsec.com/2019/12/macos.html#dirsearch
 
-## 常用参数
+## 常用命令
+
 ```bash
 dirsearch [options]
   -u URL  # 扫描单个 URL
