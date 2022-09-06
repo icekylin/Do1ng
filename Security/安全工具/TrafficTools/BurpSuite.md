@@ -59,7 +59,9 @@ curl ifconfig.io
 
 
 ## Grep-Match 中文乱码
-将中文转换为UTF编码，将编码后勾选Match type -> Regex 正则匹配
+
+将中文转换为UTF编码，将编码后勾选 Match type -> Regex 正则匹配
+
 ```python
 # python 转换
 str = '购买'
