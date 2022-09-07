@@ -52,12 +52,12 @@
 * 安全资源
   * 靶场资源
     * WriteUp
-      * [DC1-WriteUp.md](./安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
-    * [靶场资源.md](./安全资源/靶场资源/靶场资源.md)
+      * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
+    * [靶场资源.md](Security/安全资源/靶场资源/靶场资源.md)
       * 分类靶场
       * 集成靶场
       * 在线靶场
-  * [学习资源.md](./安全资源/学习资源.md)
+  * [学习资源.md](Security/安全资源/学习资源.md)
     * 安全文章
     * 社区资源
     * 面试相关
