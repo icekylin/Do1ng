@@ -64,15 +64,15 @@
     * 暂未分类
 
 ### Integrated - 集成的一些比较杂乱的东西
-* [Git.md](./Integrated/Git.md)
-* [Linux.md](./Integrated/Linux.md)
-* [Mac-Plan.md](./Integrated/Mac-Plan.md)
-* [VSCode-Plan.md](./Integrated/VSCode-Plan.md)
+* [Git.md](Integrated/Git.md)
+* [Linux.md](Integrated/Linux.md)
+* [Mac-Plan.md](Integrated/Mac-Plan.md)
+* [VSCode-Plan.md](Integrated/VSCode-Plan.md)
 
 ### Develop - 开发相关
 * Python
   * 笔记
-    * [Python.md](Develop/Python.md)
+    * [Python.md](Develop/Python/笔记/Python.md)
 * Golang
   * 笔记
     * #TODO
