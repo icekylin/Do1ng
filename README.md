@@ -22,28 +22,33 @@
 
 ### Security
 * Web安全
+  * [quickStart](Security/quickStart.md) - 快速入门可选方案
   * 逻辑漏洞
-    * [任意密码重置.md](Security/Web安全/逻辑漏洞/任意密码重置.md)
+    * [密码找回.md](Security/Web安全/逻辑漏洞/密码找回.md)
+    * [越权漏洞.md](Security/Web安全/逻辑漏洞/越权漏洞.md)
     * [IDOR.md](Security/Web安全/逻辑漏洞/IDOR.md)
-  * [跨站脚本.md](Security/Web安全/跨站脚本.md)
   * [信息收集.md](Security/Web安全/信息收集.md)
+  * [跨站脚本.md](Security/Web安全/跨站脚本.md)
   * [BugBounty.md](Security/Web安全/BugBounty.md)
   * [SQLinject.md](Security/Web安全/SQLinject.md)
 * 安全工具
+  * [Toolkit.md](Security/安全工具/Toolkit.md) - 安全工具集成
   * ExploitTools - 利用工具
     * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
     * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
   * ScanTools - 扫描工具
-    * [nmap.md](Security/安全工具/ScanTools/nmap.md)
-    * [wfuzz](Security/安全工具/ScanTools/wfuzz)
-    * [xray.md](Security/安全工具/ScanTools/xray.md)
-    * [Observer_ward](Security/安全工具/ScanTools/observer_ward.md)
-    * [nuclei.md](Security/安全工具/ScanTools/nuclei.md)
     * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
     * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
+    * [ksubdomain.md](Security/安全工具/ScanTools/ksubdomain.md)
+    * [masscan.md](Security/安全工具/ScanTools/masscan.md)
+    * [nmap.md](Security/安全工具/ScanTools/nmap.md)
+    * [nuclei.md](Security/安全工具/ScanTools/nuclei.md)
+    * [observer_ward.md](Security/安全工具/ScanTools/observer_ward.md)
+    * [OneForAll.md](Security/安全工具/ScanTools/OneForAll.md)
+    * [wfuzz](Security/安全工具/ScanTools/wfuzz)
+    * [xray.md](Security/安全工具/ScanTools/xray.md)
   * TrafficTools - 流量工具
     * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
-  * [Toolkit](Security/安全工具/Toolkit.md) - 新增了一些暂未使用过的工具
 * 安全资源
   * 靶场资源
     * WriteUp
