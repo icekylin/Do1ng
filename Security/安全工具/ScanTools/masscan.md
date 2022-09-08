@@ -1,36 +1,22 @@
-- [工具介绍](#工具介绍)
-- [下载安装](#下载安装)
-  - [MacOS](#macos)
-  - [Debian/Ubuntu](#debianubuntu)
-- [工具使用](#工具使用)
-  - [常用命令](#常用命令)
-  - [基本参数](#基本参数)
-  - [输出格式](#输出格式)
-
-## 工具介绍
+- [Usage](#usage)
+- [基本参数](#基本参数)
+- [输出格式](#输出格式)
 
 > TCP端口扫描器 5分钟内扫描整个互联网 https://github.com/robertdavidgraham/masscan
 
-## 下载安装
+**下载安装**
 
-### MacOS
-
-```
+```bash
+# MacOS
 brew install masscan
-```
-
-### Debian/Ubuntu
-
-```
+# Debian/Ubuntu
 apt-get install git gcc make libpcap-dev
 git clone https://github.com/robertdavidgraham/masscan
 cd masscan
 make
 ```
 
-## 工具使用
-
-### 常用命令
+## Usage
 
 ```
 masscan x.x.x.x/24 -p80,8080-8100 --echo > test.conf
@@ -43,7 +29,7 @@ masscan x.x.x.x/24 -c test.conf --rate 1000
 --banners 获取目标应用程序的Banner信息。
 ```
 
-### 基本参数
+## 基本参数
 
 ```
 <ip/range> IP地址范围，有三种有效格式，1、单独的IPv4地址 2、类似"10.0.0.1-10.0.0.233"的范围地址 3、CIDR地址 类似于"0.0.0.0/0"，多个目标可以用都好隔开
@@ -107,7 +93,7 @@ masscan x.x.x.x/24 -c test.conf --rate 1000
 --connection-timeout <secs> 抓取banners时指定保持TCP连接的最大秒数，默认是30秒。
 ```
 
-### 输出格式
+## 输出格式
 
 ```
 -oX <filespec> (XML)
