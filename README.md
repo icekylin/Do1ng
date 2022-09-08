@@ -11,7 +11,7 @@
 
 ---
 
->  工欲善其事，必先利其器。 [Security](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
+>  工欲善其事，必先利其器。 [Do1ng](https://github.com/moekylin/Security) 为安全学习提供结构化的导航，方便在广大的知识流寻找到需要的内容。
 
 **注意事项**
 - 项目本身为整理后的学习笔记，部分内容可能存在瑕疵和纰漏请谅解
@@ -22,57 +22,57 @@
 
 ### Security
 * Web安全
-  * [quickStart](Security/quickStart.md) - 快速入门可选方案
   * 逻辑漏洞
-    * [密码找回.md](Security/Web安全/逻辑漏洞/密码找回.md)
-    * [越权漏洞.md](Security/Web安全/逻辑漏洞/越权漏洞.md)
-    * [IDOR.md](Security/Web安全/逻辑漏洞/IDOR.md)
-  * [信息收集.md](Security/Web安全/信息收集.md)
-  * [跨站脚本.md](Security/Web安全/跨站脚本.md)
-  * [BugBounty.md](Security/Web安全/BugBounty.md)
-  * [SQLinject.md](Security/Web安全/SQLinject.md)
+    * [密码找回](Security/Web安全/逻辑漏洞/密码找回.md)
+    * [越权漏洞](Security/Web安全/逻辑漏洞/越权漏洞.md)
+    * [IDOR](Security/Web安全/逻辑漏洞/IDOR.md)
+  * [信息收集](Security/Web安全/信息收集.md)
+  * [跨站脚本](Security/Web安全/跨站脚本.md)
+  * [BugBounty](Security/Web安全/BugBounty.md)
+  * [SQLinject](Security/Web安全/SQLinject.md)
 * 安全工具
-  * [Toolkit.md](Security/安全工具/Toolkit.md) - 安全工具集成
+  * [Toolkit](Security/安全工具/Toolkit.md) - 安全工具集成
   * ExploitTools - 利用工具
-    * [Metasploit.md](Security/安全工具/ExploitTools/Metasploit.md)
-    * [searchsploit.md](Security/安全工具/ExploitTools/searchsploit.md)
+    * [Metasploit](Security/安全工具/ExploitTools/Metasploit.md)
+    * [searchsploit](Security/安全工具/ExploitTools/searchsploit.md)
   * ScanTools - 扫描工具
-    * [dirmap.md](Security/安全工具/ScanTools/dirmap.md)
-    * [dirsearch.md](Security/安全工具/ScanTools/dirsearch.md)
-    * [ksubdomain.md](Security/安全工具/ScanTools/ksubdomain.md)
-    * [masscan.md](Security/安全工具/ScanTools/masscan.md)
-    * [nmap.md](Security/安全工具/ScanTools/nmap.md)
-    * [nuclei.md](Security/安全工具/ScanTools/nuclei.md)
-    * [observer_ward.md](Security/安全工具/ScanTools/observer_ward.md)
-    * [OneForAll.md](Security/安全工具/ScanTools/OneForAll.md)
-    * [wfuzz](Security/安全工具/ScanTools/wfuzz)
-    * [xray.md](Security/安全工具/ScanTools/xray.md)
+    * [dirmap](Security/安全工具/ScanTools/dirmap.md) - Path
+    * [dirsearch](Security/安全工具/ScanTools/dirsearch.md) - Path
+    * [JFscan](Security/安全工具/ScanTools/JFScan.md) - Port
+    * [ksubdomain](Security/安全工具/ScanTools/ksubdomain.md) - Subdomain
+    * [masscan](Security/安全工具/ScanTools/masscan.md) - Port
+    * [nmap](Security/安全工具/ScanTools/nmap.md) - Port
+    * [nuclei](Security/安全工具/ScanTools/nuclei.md) - Vuln
+    * [observer_ward](Security/安全工具/ScanTools/observer_ward.md) - CMS
+    * [OneForAll](Security/安全工具/ScanTools/OneForAll.md) - Subdomain
+    * [wfuzz](Security/安全工具/ScanTools/wfuzz) - FUZZ
+    * [xray](Security/安全工具/ScanTools/xray.md) - Vuln
   * TrafficTools - 流量工具
-    * [BurpSuite.md](Security/安全工具/TrafficTools/BurpSuite.md)
+    * [BurpSuite](Security/安全工具/TrafficTools/BurpSuite.md)
 * 安全资源
   * 靶场资源
     * WriteUp
-      * [DC1-WriteUp.md](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
-    * [靶场资源.md](Security/安全资源/靶场资源/靶场资源.md)
+      * [DC1-WriteUp](Security/安全资源/靶场资源/WriteUp/DC1-WriteUp.md)
+    * [靶场资源](Security/安全资源/靶场资源/靶场资源.md)
       * 分类靶场
       * 集成靶场
       * 在线靶场
-  * [学习资源.md](Security/安全资源/学习资源.md)
+  * [学习资源](Security/安全资源/学习资源.md)
     * 安全文章
     * 社区资源
     * 面试相关
     * 暂未分类
 
 ### Integrated - 集成的一些比较杂乱的东西
-* [Git.md](Integrated/Git.md)
-* [Linux.md](Integrated/Linux.md)
-* [Mac-Plan.md](Integrated/Mac-Plan.md)
-* [VSCode-Plan.md](Integrated/VSCode-Plan.md)
+* [Git](Integrated/Git.md)
+* [Linux](Integrated/Linux.md)
+* [Mac-Plan](Integrated/Mac-Plan.md)
+* [VSCode-Plan](Integrated/VSCode-Plan.md)
 
 ### Develop - 开发相关
 * Python
   * 笔记
-    * [Python.md](Develop/Python/笔记/Python.md)
+    * [Python](Develop/Python/笔记/Python.md)
 * Golang
   * 笔记
     * #TODO

@@ -32,7 +32,7 @@ git commit -m "$(date)"
 
 ```
 git remote rm origin
-git remote add origin git@github.com:moekylin/blog.git
+git remote add origin git@github.com:moekylin/Do1ng.git
 ```
 
 ### 生成公钥与github连接
