@@ -1,7 +1,6 @@
 - [基础命令](#基础命令)
 - [正则表达式](#正则表达式)
   - [取根域名-1](#取根域名-1)
-  - [取根域名-2](#取根域名-2)
 - [文件批处理](#文件批处理)
   - [删除指定字符串](#删除指定字符串)
   - [替换指定字符串](#替换指定字符串)
@@ -36,14 +35,6 @@ cat rootdomain.txt
   cdomain.com
 ```
 
-### 取根域名-2
-
-```
-cat result.txt
-
-
-```
-
 ## 文件批处理
 
 相关链接：
@@ -51,6 +42,7 @@ cat result.txt
 - [Mac 批量重命名（增加前缀后缀）](https://blog.csdn.net/m0_46728513/article/details/114396779)
 
 ### 删除指定字符串
+
 ```bash
 $ ls
   a_1.txt a_2.txt a_3.txt a_4.txt a_5.txt
@@ -58,7 +50,9 @@ $ rename -d a_ *.txt
 $ ls
   1.txt 2.txt 3.txt 4.txt 5.txt
 ```
+
 ### 替换指定字符串
+
 ```bash
 ls
   1.txt 2.txt 3.txt 4.txt 5.txt
@@ -67,7 +61,9 @@ rename 's/.txt/.log/' *
 ls
   1.log 2.log 3.log 4.log 5.log
 ```
+
 ### 添加前缀
+
 ```bash
 ls
   1.txt 2.txt 3.txt 4.txt 5.txt

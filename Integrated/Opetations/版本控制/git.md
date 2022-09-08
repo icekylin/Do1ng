@@ -1,6 +1,6 @@
 - [基础命令](#基础命令)
   - [建立仓库提示命令](#建立仓库提示命令)
-  - [清除缓存重新提交数据(用于更新.gitnore):](#清除缓存重新提交数据用于更新gitnore)
+  - [清除缓存重新提交数据 (用于更新.gitnore):](#清除缓存重新提交数据-用于更新gitnore)
   - [修改仓库地址名称后重新绑定仓库](#修改仓库地址名称后重新绑定仓库)
   - [生成公钥与github连接](#生成公钥与github连接)
   - [清除本地修改，拉取仓库最新内容](#清除本地修改拉取仓库最新内容)
@@ -19,7 +19,7 @@ git remote add origin git@github.com:kyl1n0/Cyber-Security-Notes.git
 git push -u origin main
 ```
 
-### 清除缓存重新提交数据(用于更新.gitnore):
+### 清除缓存重新提交数据 (用于更新.gitnore):
 
 ```
 git rm --cached -r .
