@@ -2,6 +2,7 @@
 - [抓取命令行数据包](#抓取命令行数据包)
 - [Autorize 越权检测插件](#autorize-越权检测插件)
 - [Grep-Match 中文乱码](#grep-match-中文乱码)
+- [抓取手机数据包](#抓取手机数据包)
 
 ![图 2](../../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
 
@@ -69,3 +70,7 @@ str.encode()
 b'\xe8\xb4\xad\xe4\xb9\xb0'
 ```
 ![图 2](../../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
+
+## 抓取手机数据包
+
+手机与电脑处于同一局域网，Burpsuite 监听新的端口，IP 选择 Wifi 或网线分配的 IP 地址
