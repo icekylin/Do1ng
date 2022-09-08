@@ -5,6 +5,8 @@
   - 切换窗口：Ctrl+数字键
   - 切换编辑器组：Ctrl+数字键
   - 顶部显示大纲：Command+Shift+O
+  - 多行编辑: Option + Command + 方向键
+  - 移动当前行: Option + 上下
 - Markdown
   - 打开侧边预览：CMD+K V -> Shift+CMD+V
   - 打开预览：Shift+CMD+V -> CMD+K V
