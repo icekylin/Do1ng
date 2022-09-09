@@ -1,19 +1,23 @@
-- [Useage](#useage)
-- [模式](#模式)
-  - [验证模式](#验证模式)
-  - [枚举模式](#枚举模式)
-- [特性和TIPS](#特性和tips)
+- [下载安装](#下载安装)
+- [工具使用](#工具使用)
+  - [参数](#参数)
+  - [模式](#模式)
+    - [验证模式](#验证模式)
+    - [枚举模式](#枚举模式)
+  - [特性和TIPS](#特性和tips)
 - [Example](#example)
 
 > 无状态子域名爆破工具 https://github.com/boy-hack/ksubdomain
 
-**下载安装**
+## 下载安装
 
 需要go 1.17以上版本并安装libpcap环境，运行以下命令
 
 `go install -v github.com/boy-hack/ksubdomain/cmd/ksubdomain@latest`
 
-## Useage
+## 工具使用
+
+### 参数
 
 ```bash
 NAME:
@@ -36,9 +40,9 @@ GLOBAL OPTIONS:
    --version, -v  print the version (default: false)
 ```
 
-## 模式
+### 模式
 
-### 验证模式
+#### 验证模式
 
 > 提供完整的域名列表，ksubdomain负责快速获取结果
 
@@ -77,7 +81,7 @@ echo "www.hacking8.com"|./ksubdomain v --stdin
 echo "hacking8.com" | ./ksubdomain v --stdin --dns-type 2
 ```
 
-### 枚举模式
+#### 枚举模式
 
 > 只提供一级域名，指定域名字典或使用ksubdomain内置字典，枚举所有二级域名
 
@@ -117,7 +121,7 @@ OPTIONS:
 echo "baidu.com"|./ksubdomain e --stdin
 ```
 
-## 特性和TIPS
+### 特性和TIPS
 
 - 无状态爆破，有失败重发机制，速度极快
 - 中文帮助，-h会看到中文帮助
@@ -132,14 +136,14 @@ echo "baidu.com"|./ksubdomain e --stdin
 
 ## Example
 
-**枚举单个域名输出到文件**
+枚举单个域名输出到文件
 
-```
+```bash
 ksubdomain e -d kylin.moe -o result.txt
 ```
 
-**枚举文件内所有的域名，只保留域名结果输出到文件**
+枚举文件内所有的域名，只保留域名结果输出到文件
 
-```
+```bash
 ksubdomain e --dl domain.txt --od -o subdomain.txt 
 ```

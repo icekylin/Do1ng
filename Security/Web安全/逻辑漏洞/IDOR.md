@@ -7,8 +7,8 @@
 
 **相关链接**
 
-- https://cn-sec.com/archives/1171492.html
-- https://vickieli.medium.com/intro-to-idor-9048453a3e5d
+- <https://cn-sec.com/archives/1171492.html>
+- <https://vickieli.medium.com/intro-to-idor-9048453a3e5d>
 
 ## 逻辑漏洞概述
 
@@ -156,4 +156,4 @@ GET /api/users/. HTTP/1.1
 
 **相关链接**
 
-- https://www.freebuf.com/vuls/223500.html
+- <https://www.freebuf.com/vuls/223500.html>

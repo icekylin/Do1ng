@@ -7,8 +7,21 @@
     - [Python 获取目标banner](#python-获取目标banner)
     - [Python 端口扫描](#python-端口扫描)
   - [Stage 4 - 综合能力](#stage-4---综合能力)
-- [0x02 深度学习](#0x02-深度学习)
-  - [Web Security Expand](#web-security-expand)
+- [0x02 Web 安全专项学习](#0x02-web-安全专项学习)
+  - [1. 信息收集](#1-信息收集)
+    - [1-1 信息收集 Overall](#1-1-信息收集-overall)
+    - [1-2 SRC 中信息收集方案](#1-2-src-中信息收集方案)
+    - [1-3 Hvv 中信息收集方案](#1-3-hvv-中信息收集方案)
+  - [2. 逻辑漏洞](#2-逻辑漏洞)
+    - [2-1 密码找回](#2-1-密码找回)
+    - [2-2 越权漏洞](#2-2-越权漏洞)
+    - [2-3 未授权访问](#2-3-未授权访问)
+  - [3. Web-Basic](#3-web-basic)
+    - [3-1 SQLinject](#3-1-sqlinject)
+    - [3-2 FileUpload](#3-2-fileupload)
+    - [3-3 XSS](#3-3-xss)
+    - [3-4 CSRF](#3-4-csrf)
+    - [3-5 CORS](#3-5-cors)
 
 > 个人学习途径，仅供参考
 
@@ -54,7 +67,7 @@
 
 靶机渗透测试可以帮助你速成脚本小子，也可以让你初步了解渗透测试的基本流程，在这过程中可能会使用大量的工具辅助，以下为 DC:1 靶机作为参考的学习途径
 
-下载地址：https://www.vulnhub.com/entry/dc-1,292/
+下载地址：<https://www.vulnhub.com/entry/dc-1,292/>
 
 1. VMware 或 VirtualBox 搭建靶机
 2. 网络环境正常后进行局域网存活扫描（常用的工具有 fping、arping、nmap）`fping -aqg [网段/子网掩码]`
@@ -78,7 +91,7 @@ TIPS：工具的安装和使用并不会一帆风顺，有时需要查阅大部�
 #!/bin/bash
 for i in {1..254}
   do
-      (if ping -c 1 -W 1 10.110.2.$i &> /dev/null;then	# 替换IP段为自身所处的IP段
+      (if ping -c 1 -W 1 10.110.2.$i &> /dev/null;then # 替换IP段为自身所处的IP段
           echo "10.110.2.$i is up"
       fi)&
   done
@@ -94,6 +107,7 @@ s.connect(("198.46.152.109",22)) # 198.46.152.109 是我的 vps 地址，22对�
 banner = s.recv(1024)
 print(banner)
 ```
+
 #### Python 端口扫描
 
 ```python
@@ -122,6 +136,69 @@ for port in range(1,100):
 - [黑客街 web渗透学习路线图](https://www.hackjie.com/1500.html)
 - [余弦的安全技能树简版](https://evilcos.me/security_skill_tree_basic/index.html)
 
-## 0x02 深度学习
+---
 
-### Web Security Expand
+## 0x02 Web 安全专项学习
+
+未来的学习路线规划，To Doing
+
+Unknow Time
+
+- [X] DVWV - SQL注入、文件上传、文件包含、文件上传、命令执行
+- [X] Upload-Lbas - 通关
+- [X] Python - 端口扫描器、局域网存活扫描
+
+### 1. 信息收集
+
+- 相关链接
+  - [Web渗透测试：信息收集篇](https://www.freebuf.com/articles/network/251083.html)
+  - [Information Collection Handbook](https://qftm.github.io/Information_Collection_Handbook/)
+  - [Web指纹识别技术研究与优化实现](https://www.freebuf.com/articles/web/202560.html)
+
+#### 1-1 信息收集 Overall
+
+- [X] [信息收集 2022-08-29](Web安全/信息收集.md)
+
+#### 1-2 SRC 中信息收集方案
+
+- [ ] [SRC 信息收集]() **#Uncertain**
+
+#### 1-3 Hvv 中信息收集方案
+
+- [ ] [Hvv 信息收集]() **#Uncertain**
+
+### 2. 逻辑漏洞
+
+- 逻辑漏洞分类
+  - 密码找回、支付漏洞、未授权访问/越权
+  - 其他类型：条件竞争、数据包重放、参数绑定
+
+- 相关链接
+  - [逻辑漏洞梳理与总结](https://www.freebuf.com/vuls/281141.html)
+
+#### 2-1 密码找回
+
+- [x] [逻辑漏洞/密码找回 2022-09-07](Web安全/逻辑漏洞/密码找回.md)
+
+#### 2-2 越权漏洞
+
+- [ ] [逻辑漏洞/越权漏洞](Web安全/逻辑漏洞/越权漏洞.md) **#TODO**
+
+#### 2-3 未授权访问
+
+- [ ] [逻辑漏洞/未授权访问]() **#TODO**
+
+### 3. Web-Basic
+
+#### 3-1 SQLinject
+
+#### 3-2 FileUpload
+
+#### 3-3 XSS
+
+- 相关链接
+  - [我的通行你的证](https://wooyun.kieran.top/#!/drops/1032.%E6%88%91%E7%9A%84%E9%80%9A%E8%A1%8C%E4%BD%A0%E7%9A%84%E8%AF%81)
+
+#### 3-4 CSRF
+
+#### 3-5 CORS

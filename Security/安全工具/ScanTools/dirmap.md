@@ -8,6 +8,7 @@ git clone https://github.com/H4ckForJob/dirmap.git && cd dirmap && python3 -m pi
 ```
 
 ## 常用参数
+
 ```bash
   -i # 目标URL
   -iF # URL 文件
