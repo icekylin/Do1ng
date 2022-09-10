@@ -48,8 +48,6 @@
     - 靶场资源 - 专项靶场、主机靶场、在线靶场
     - 安全文章 - 值得一看的安全类文章
 
-  https://www.yuque.com/moekylin/blog/pguo90
-
 ---
 
 ### Integrated - 集成的一些比较杂乱的东西
