@@ -1,8 +1,12 @@
 - [工具使用](#工具使用)
   - [基础模块介绍](#基础模块介绍)
+- [一些方案](#一些方案)
   - [抓取命令行数据包](#抓取命令行数据包)
-  - [Grep-Match 中文乱码](#grep-match-中文乱码)
   - [抓取 iPhone 数据包](#抓取-iphone-数据包)
+  - [暴力破解模块延时爆破](#暴力破解模块延时爆破)
+- [常见问题](#常见问题)
+  - [解决 grep-match 中文乱码](#解决-grep-match-中文乱码)
+  - [解决 Firefox 多余数据包](#解决-firefox-多余数据包)
 
 ![图 2](../../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
 
@@ -57,6 +61,8 @@ java -jar burp-keygen-scz.jar
 | Decoder   | 手动或自动进行编码和解码等操作                                            |
 | Comparer  | 主要提供一个可视化的差异比对功能，来对比分析两次数据之间的区别。 通常会配合Intruder模块进行                                                                         |
 
+## 一些方案
+
 ### 抓取命令行数据包
 
 ```
@@ -65,7 +71,24 @@ export https_proxy=localhost:8080
 curl ifconfig.io
 ```
 
-### Grep-Match 中文乱码
+### 抓取 iPhone 数据包
+
+> 电脑与手机应在同一局域网内
+
+1. Burpsuite 新增监听地址
+2. 手机 WLAN 手动设置代理
+3. 浏览器访问电脑 IP:监听端口 下载证书文件
+4. 设置 -> 通用 -> VPN与设备管理 安装描述文件
+5. 设置 -> 通用 关于本机 -> 证书信任设置 针对根证书启用完全信任
+
+### 暴力破解模块延时爆破
+
+![图 1](../../../@attachment/images/Security/安全工具/TrafficTools/BurpSuite_1662773864871.png)  
+
+
+## 常见问题
+
+### 解决 grep-match 中文乱码
 
 将中文转换为UTF编码，将编码后勾选 Match type -> Regex 正则匹配
 
@@ -78,12 +101,9 @@ b'\xe8\xb4\xad\xe4\xb9\xb0'
 
 ![图 2](../../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
 
-### 抓取 iPhone 数据包
+### 解决 Firefox 多余数据包
 
-> 电脑与手机应在同一局域网内
+detectportal.firefox.com
 
-1. Burpsuite 新增监听地址
-2. 手机 WLAN 手动设置代理
-3. 浏览器访问电脑 IP:监听端口 下载证书文件
-4. 设置 -> 通用 -> VPN与设备管理 安装描述文件
-5. 设置 -> 通用 关于本机 -> 证书信任设置 针对根证书启用完全信任
+1. 地址栏输入 `about:config`
+2. 搜索 `network.captive-portal-service.enabled` 双击设置为 false

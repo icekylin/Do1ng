@@ -25,28 +25,30 @@
 ### Security
 
 - Web安全
-  - [逻辑漏洞](Security/Web安全/逻辑漏洞/)
+  - 技能树
+    - [个人总结 | 关于安全的一些学习经历](https://www.yuque.com/moekylin/blog/figbfo)
+    - [个人总结 | Web 安全方向技能树](https://www.yuque.com/moekylin/blog/pguo90)
+  - 逻辑漏洞
     - [密码找回](Security/Web安全/逻辑漏洞/密码找回.md)
-    - [越权漏洞](Security/Web安全/逻辑漏洞/越权漏洞.md)
-    - [IDOR](Security/Web安全/逻辑漏洞/IDOR.md)
-  - Web-Basic - Web基础漏洞 #TODO
-    - [SQLinject.md](Security/Web安全/Web-Basic/SQLinject.md)
-    - UploadFile
-    - FileInclude
-  - [信息收集.md](Security/Web安全/信息收集.md) - 信息收集 Archive
-  - [漏洞赏金.md](Security/Web安全/漏洞赏金.md) - 漏洞赏金 Archive
-- 安全工具
-  - [ExploitTools](Security/安全工具/ExploitTools/) - 利用工具
-  - [ScanTools](Security/安全工具/ScanTools/) - 扫描工具
-  - [TrafficTools](Security/安全工具/TrafficTools/) - 流量工具
-- 安全资源
+    - [越权访问](Security/Web安全/逻辑漏洞/越权访问.md)
+    - [支付漏洞](Security/Web安全/逻辑漏洞/支付漏洞.md)
+  - [漏洞赏金](Security/Web安全/漏洞赏金.md)
+  - [未授权访问](Security/Web安全/未授权访问.md)
+  - [信息收集](Security/Web安全/信息收集.md)
+  - [XSS](Security/Web安全/XSS.md)
+- 安全工具 - 安全工具下载、使用
+  - [ExploitTools](Security/安全工具/ExploitTools/) - 漏洞利用工具
+  - [ScanTools](Security/安全工具/ScanTools/) - 漏洞扫描、目录扫描、CMS识别等工具
+  - [TrafficTools](Security/安全工具/TrafficTools/) - 数据包、流量工具
+- 安全资源  - 包括 Write、文库、资源等
   - [WriteUp](Security/安全资源/WriteUp) - 靶机、靶场 WriteUp
     - [DC1-WriteUp.md](Security/安全资源/WriteUp/DC1-WriteUp.md)
   - [安全资源.md](Security/安全资源/安全资源.md) - 安全资源归档, 包括以下内容
     - 文库资源 - 漏洞文库、知识文库收集
     - 靶场资源 - 专项靶场、主机靶场、在线靶场
     - 安全文章 - 值得一看的安全类文章
-- [SkillMap](Security/SkillMap.md) - 安全学习路线, 知识点导航
+
+  https://www.yuque.com/moekylin/blog/pguo90
 
 ---
 

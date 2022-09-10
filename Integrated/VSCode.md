@@ -13,9 +13,10 @@
   - 顶部显示大纲：Command+Shift+O
   - 多行编辑: Option + Command + 方向键
   - 移动当前行: Option + 上下
+  - 在 Finder 中打开文件 Command + K R
 - Markdown
-  - 打开侧边预览：CMD+K V -> Shift+CMD+V
-  - 打开预览：Shift+CMD+V -> CMD+K V
+  - 打开侧边预览：CMD+K V
+  - 打开预览：Shift+CMD+V
 - Markdown Image
   - 粘贴图片：Shift+Opt+V -> Opt+V
 - breadcrumbs
@@ -50,6 +51,6 @@ Markdown格式Tree
 
 ### 连字支持
 
-1. 安装字体：https://github.com/tonsky/FiraCode
+1. 安装字体：<https://github.com/tonsky/FiraCode>
 2. 设置字体为：Fira Code
 3. 配置文件新增："editor.fontLigatures": true
