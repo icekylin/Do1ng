@@ -77,23 +77,21 @@
 
 全文使用 [VSCode](https://azure.microsoft.com/zh-cn/products/visual-studio-code/) 排版, 生成导航目录，如果想获得更好阅读体验，可以将项目 clone 至本地阅读
 
+或者你可以按下键盘上英文状态下的 `.` 在线预览
+
+![README_1](@attachment/images/banner/README_1.png)
+
 ## 提升和改进
 
 如果你有好的建议或者需求可以提出 issue 或者发送邮件至 moekylin@qq.com 联系我
 
 最后希望这个仓库能帮助到你。
 
-## 一些优秀的项目
+- 一些优秀的项目
+  - <https://github.com/ffffffff0x/1earn>
+  - <https://github.com/riusksk/secbook>
+  - <https://github.com/olist213/Information_Security_Books>
 
-- <https://github.com/ffffffff0x/1earn>
-- <https://github.com/riusksk/secbook>
-- <https://github.com/olist213/Information_Security_Books>
-
-## TODO
-
-- [ ] Deploy to `GitHub pages` or `GitBook`
-- [ ] Make a Little Progress Every Day
-
-## 关于学习
-
-善用搜索引擎查找资料
+- TODO
+  - [ ] Deploy to `GitHub pages` or `GitBook`
+  - [ ] Make a Little Progress Every Day
