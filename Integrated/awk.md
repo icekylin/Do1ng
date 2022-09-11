@@ -125,7 +125,7 @@ awk -f cal.awk log.txt
 
 ## 运算符
 
-![图 1](../../@attachment/images/Integrated/Linux/awk_1662533872617.png)  
+![图 1](/@attachment/images/Integrated/Linux/awk_1662533872617.png)  
 
 输出第一列大于 2 行的行
 

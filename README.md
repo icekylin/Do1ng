@@ -24,7 +24,6 @@
 
 - 技能树
   - [个人总结 | 关于安全的一些学习经历](https://www.yuque.com/moekylin/blog/figbfo)
-  - [个人总结 | Web 安全方向技能树](https://www.yuque.com/moekylin/blog/pguo90)
 - 渗透测试
   - 信息收集
     - [信息收集](Security/Web安全/信息收集.md)

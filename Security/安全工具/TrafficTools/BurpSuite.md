@@ -10,7 +10,7 @@
   - [解决 grep-match 中文乱码](#解决-grep-match-中文乱码)
   - [解决 Firefox 多余数据包](#解决-firefox-多余数据包)
 
-![图 2](../../../@attachment/images/安全工具/BurpSuite_1660992463972.png)  
+![图 2](/@attachment/images/安全工具/BurpSuite_1660992463972.png)  
 
 **下载安装**
 
@@ -87,7 +87,7 @@ curl ifconfig.io
 
 ### 延时爆破
 
-![图 1](../../../@attachment/images/Security/安全工具/TrafficTools/BurpSuite_1662773864871.png)  
+![图 1](/@attachment/images/Security/安全工具/TrafficTools/BurpSuite_1662773864871.png)  
 
 ### 识别验证码
 
@@ -104,7 +104,7 @@ str.encode()
 b'\xe8\xb4\xad\xe4\xb9\xb0'
 ```
 
-![图 2](../../../@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
+![图 2](/@attachment/images/Security/安全工具/BurpSuite_1661477852633.png)  
 
 ### 解决 Firefox 多余数据包
 

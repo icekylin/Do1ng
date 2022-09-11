@@ -47,4 +47,4 @@ wfuzz -o json # 以 json 格式输出
 wfuzz -w dir_top7000.txt --sc 200,301 http://testphp.vulnweb.com/FUZZ
 ```
 
-![图 1](../../../@attachment/images/Security/安全工具/ScanTools/wfuzz_1661567037361.png)
+![图 1](/@attachment/images/Security/安全工具/ScanTools/wfuzz_1661567037361.png)

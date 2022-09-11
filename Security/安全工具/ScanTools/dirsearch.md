@@ -48,7 +48,7 @@ dirsearch -u http://www.vulnweb.com/ -t 20 --max-time 360 --format html -o repor
 ```
 
 保存为 html 的结果在过滤时，不同的参数使用空格分隔
-![图 2](../../../@attachment/images/Security/安全工具/ScanTools/dirsearch_1661954292695.png)  
+![图 2](/@attachment/images/Security/安全工具/ScanTools/dirsearch_1661954292695.png)  
 
 ## Example-2 精确扫描
 
