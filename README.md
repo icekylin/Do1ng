@@ -24,23 +24,26 @@
 
 ### Security
 
-- Web安全
-  - 技能树
-    - [个人总结 | 关于安全的一些学习经历](https://www.yuque.com/moekylin/blog/figbfo)
-    - [个人总结 | Web 安全方向技能树](https://www.yuque.com/moekylin/blog/pguo90)
-  - 逻辑漏洞
-    - [密码找回](Security/Web安全/逻辑漏洞/密码找回.md)
-    - [越权访问](Security/Web安全/逻辑漏洞/越权访问.md)
-    - [支付漏洞](Security/Web安全/逻辑漏洞/支付漏洞.md)
+- 技能树
+  - [个人总结 | 关于安全的一些学习经历](https://www.yuque.com/moekylin/blog/figbfo)
+  - [个人总结 | Web 安全方向技能树](https://www.yuque.com/moekylin/blog/pguo90)
+- 渗透测试
+  - 信息收集
+    - [信息收集](Security/Web安全/信息收集.md)
+  - Web安全
+    - 逻辑漏洞
+      - [密码找回](Security/Web安全/逻辑漏洞/密码找回.md)
+      - [越权访问](Security/Web安全/逻辑漏洞/越权访问.md)
+      - [支付漏洞](Security/Web安全/逻辑漏洞/支付漏洞.md)
+    - [未授权访问](Security/渗透测试/Web安全/未授权访问.md)
+    - [XSS](Security/渗透测试/Web安全/XSS.md)
+- 漏洞赏金
   - [漏洞赏金](Security/Web安全/漏洞赏金.md)
-  - [未授权访问](Security/Web安全/未授权访问.md)
-  - [信息收集](Security/Web安全/信息收集.md)
-  - [XSS](Security/Web安全/XSS.md)
-- 安全工具 - 安全工具下载、使用
+- 安全工具
   - [ExploitTools](Security/安全工具/ExploitTools/) - 漏洞利用工具
   - [ScanTools](Security/安全工具/ScanTools/) - 漏洞扫描、目录扫描、CMS识别等工具
   - [TrafficTools](Security/安全工具/TrafficTools/) - 数据包、流量工具
-- 安全资源  - 包括 Write、文库、资源等
+- 安全资源
   - [WriteUp](Security/安全资源/WriteUp) - 靶机、靶场 WriteUp
     - [DC1-WriteUp.md](Security/安全资源/WriteUp/DC1-WriteUp.md)
   - [安全资源.md](Security/安全资源/安全资源.md) - 安全资源归档, 包括以下内容
@@ -48,27 +51,16 @@
     - 靶场资源 - 专项靶场、主机靶场、在线靶场
     - 安全文章 - 值得一看的安全类文章
 
----
-
 ### Integrated - 集成的一些比较杂乱的东西
 
-**数据处理**
-
-- [awk](Integrated/awk.md)
-
-**文件处理**
-
-- [FileFilter](Integrated/FileFilter.md) - 文件批处理
-
-**版本控制**
-
-- [Git](Integrated/Git.md)
-
-**推荐配置**
-
-- [VSCode](Integrated/VSCode-Plan.md)
-
----
+- 数据处理
+  - [awk](Integrated/awk.md)
+- 文件处理
+  - [FileFilter](Integrated/FileFilter.md) - 文件批处理
+- 版本控制
+  - [Git](Integrated/Git.md)
+- 效率技巧
+  - [VSCode](Integrated/VSCode-Plan.md)
 
 ### Develop - 开发相关
 

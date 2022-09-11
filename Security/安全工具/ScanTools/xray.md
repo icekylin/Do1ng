@@ -2,7 +2,7 @@
 
 下载安装
 
-```txt
+```
 https://github.com/chaitin/xray
 ```
 

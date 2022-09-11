@@ -7,7 +7,7 @@
   - [特性和TIPS](#特性和tips)
 - [Example](#example)
 
-> 无状态子域名爆破工具 https://github.com/boy-hack/ksubdomain
+> 无状态子域名爆破工具 <https://github.com/boy-hack/ksubdomain>
 
 ## 下载安装
 
