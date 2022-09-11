@@ -4,7 +4,7 @@
 
 ## 说明
 
-> 漏洞扫描，批量检测，自定义POC https://github.com/projectdiscovery/nuclei
+> 漏洞扫描，批量检测，自定义POC <https://github.com/projectdiscovery/nuclei>
 
 下载安装
 
@@ -15,9 +15,9 @@ brew install nuclei
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 ```
 
-相关链接
-- [官方使用文档](https://nuclei.projectdiscovery.io/templating-guide/protocols/http/)
-- [README_CN](https://github.com/projectdiscovery/nuclei/blob/master/README_CN.md)
+- 相关链接
+  - [官方使用文档](https://nuclei.projectdiscovery.io/templating-guide/protocols/http/)
+  - [README_CN](https://github.com/projectdiscovery/nuclei/blob/master/README_CN.md)
 
 ## 示例
 
@@ -89,4 +89,4 @@ requests:
 nuclei -l urls.txt -t DocCMS-keyword-SQLi.yaml
 ```
 
-![图 4](../../../@attachment/images/Security/安全工具/nuclei_1661280665338.png)  
+![图 4](../../../@attachment/images/Security/安全工具/nuclei_1661280665338.png)

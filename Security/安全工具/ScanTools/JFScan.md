@@ -1,12 +1,12 @@
 - [Usage](#usage)
 - [参数](#参数)
 
-> 基于Masscan和Nmap的极速端口扫描和服务发现工具 https://github.com/nullt3r/jfscan
+> 基于Masscan和Nmap的极速端口扫描和服务发现工具 <https://github.com/nullt3r/jfscan>
 
-**相关链接**
-- https://www.freebuf.com/articles/network/332153.html
+- 相关链接
+  - <https://www.freebuf.com/articles/network/332153.html>
 
-**下载安装**
+- 下载安装
 
 ```
 git clone https://github.com/nullt3r/jfscan.git

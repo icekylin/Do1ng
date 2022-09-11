@@ -1,5 +1,5 @@
 
-> 基于 Python 的 Web 目录扫描器 
+> 基于 Python 的 Web 目录扫描器
 
 下载安装
 
