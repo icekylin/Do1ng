@@ -2,6 +2,8 @@
 
 ## BurpSuite
 
+![Shortcut](/@attachment/images/安全工具/BurpSuite_1660992463972.png)
+
 - 相关链接
   - 官方安装包: [Burp Suite Releases](https://portswigger.net/burp/releases)  
   - 加载器: [Loader](https://raw.githubusercontent.com/x-Ai/BurpSuite/main/BurpSuiteLoader.jar)  

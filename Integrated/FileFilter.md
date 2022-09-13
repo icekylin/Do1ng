@@ -37,9 +37,9 @@ cat rootdomain.txt
 
 ## 文件批处理
 
-相关链接：
-- [rename命令详解](https://wangchujiang.com/linux-command/c/rename.html)
-- [Mac 批量重命名（增加前缀后缀）](https://blog.csdn.net/m0_46728513/article/details/114396779)
+- 相关链接：
+  - [rename命令详解](https://wangchujiang.com/linux-command/c/rename.html)
+  - [Mac 批量重命名（增加前缀后缀）](https://blog.csdn.net/m0_46728513/article/details/114396779)
 
 ### 删除指定字符串
 
@@ -74,6 +74,7 @@ ls
 ```
 
 ### 添加后缀
+
 ```bash
 ls
   1.txt 2.txt 3.txt 4.txt 5.txt
@@ -84,6 +85,7 @@ ls
 ```
 
 ### 去重合并
+
 ```bash
 ls
   1.txt 2.txt
