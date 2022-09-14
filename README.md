@@ -29,28 +29,47 @@
   - [ExploitTools](Security/安全工具/ExploitTools.md) - 漏洞利用工具
   - [ScanTools](Security/安全工具/ScanTools.md) - 扫描工具
   - [TrafficTools](Security/安全工具/TrafficTools.md) - 流量工具
-- 安全资源
-  - [安全书籍](Security/安全资源/安全书籍.md) - 信息安全从业者书单
-  - [安全文库](Security/安全资源/安全文库.md) - 漏洞文库、知识文库收集
-  - [安全文章](Security/安全资源/安全文章.md) - 安全入门文章
-  - [靶场资源](Security/安全资源/靶场资源.md) - 专项靶场、主机靶场、在线靶场
-  - [暂未分类](Security/安全资源/暂未分类.md) - 搜索引擎、面试相关、暂未分类
-- 渗透测试
-  - [Web安全](Security/渗透测试/Web安全)
-    - [XSS](Security/渗透测试/Web安全/XSS.md)  #TODO
-    - [未授权访问](Security/渗透测试/Web安全/未授权访问.md) #TODO
-    - [逻辑漏洞](Security/渗透测试/Web安全/逻辑漏洞.md)
   - 信息收集
-    - [信息收集](Security/渗透测试/信息收集/信息收集.md) - 域名信息收集、子域名信息收集等
+    - [信息收集.md](Security/渗透测试/信息收集/信息收集.md)
+      - 信息收集概述
+      - 域名信息收集
+      - 子域名信息收集
+      - 站点信息收集
+      - 敏感信息收集
+      - 相关应用信息收集
     - [空间测绘](Security/渗透测试/信息收集/空间测绘.md) - 空间测绘信息收集资源
-- [漏洞赏金](Security/漏洞赏金.md) - 相关资源、相关案例、相关技巧、赏金平台
+- [安全资源.md](Security/安全资源.md)
+  - 书籍资源
+  - 文库资源
+  - 文章资源
+  - 靶场资源
+  - 学习资源
+- Web安全
+  - [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md) - 相关链接、相关案例
+    - 密码找回
+    - 越权漏洞
+    - 支付漏洞 #TODO
+  - [XSS.md](Security/渗透测试/Web安全/XSS.md)  #TODO
+  - [未授权访问.md](Security/渗透测试/Web安全/未授权访问.md) #TODO
+- [漏洞赏金.md](Security/漏洞赏金.md) - 相关资源、相关案例、相关技巧、赏金平台
+  - 相关案例
+  - 相关技巧
+  - 赏金平台
+  - 公开数据
 
 ### Develop 开发技能
 
-- [编程学习资源](Develop/编程学习资源.md) 学习路线、相关资源、相关书籍
+- [编程学习资源.md](Develop/编程学习资源.md) 学习路线、相关资源、相关书籍
   - Python
+    - 学习路线
+    - 学习资源
   - Golang
-  - JavaScript
+    - 学习路线
+    - 相关资源
+    - 相关书籍
+  - Javascript
+    - 学习路线
+    - 学习资源
 
 ### Integrated 杂项技能
 
@@ -62,7 +81,11 @@
 
 ### Network 网络技能
 
-- [网络学习资源](Network/网络学习资源.md) HTTP、TCP/IP 相关链接、相关书籍
+- [网络学习资源](Network/网络学习资源.md)
+  - TCP/IP
+    - 相关资源
+  - HTTP
+    - 相关资源
 
 ## 阅读建议
 

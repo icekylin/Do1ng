@@ -10,7 +10,6 @@
   - [子域名扫描](#子域名扫描)
     - [ksubdomain](#ksubdomain)
     - [oneforall](#oneforall)
-  - [常用命令](#常用命令)
   - [漏洞扫描](#漏洞扫描)
     - [nucile](#nucile)
     - [xray](#xray)
@@ -84,12 +83,6 @@
   # Linux创建软链接
   echo 'alias oneforall="python3 [OneForAll路径]/oneforall.py"' >> ~/.zshrc
   ```
-
-## 常用命令
-
-python3 oneforall.py --target example.com run
-
-python3 oneforall.py --targets ./example.txt run
 
 ## 漏洞扫描
 
