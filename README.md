@@ -81,11 +81,8 @@
 
 ### Network 网络技能
 
-- [网络学习资源](Network/网络学习资源.md)
-  - TCP/IP
-    - 相关资源
-  - HTTP
-    - 相关资源
+- [TCP&IP](Network/TCP&IP.md) - TCP/IP 重点内容
+- [HTTP](Network/HTTP.md) - #TODO
 
 ## 阅读建议
 
@@ -111,6 +108,8 @@
 ## 更新日志
 
 ```
+2022-09-17
+  更新 Network - TCP/IP 重点内容
 2022-09-13
   更新目录结构、删除多余内容
 ```
