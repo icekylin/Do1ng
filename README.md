@@ -30,14 +30,14 @@
   - [ScanTools](Security/安全工具/ScanTools.md) - 扫描工具
   - [TrafficTools](Security/安全工具/TrafficTools.md) - 流量工具
   - 信息收集
-    - [信息收集.md](Security/渗透测试/信息收集/信息收集.md)
+    - [信息收集.md](Security/信息收集/信息收集.md)
       - 信息收集概述
       - 域名信息收集
       - 子域名信息收集
       - 站点信息收集
       - 敏感信息收集
       - 相关应用信息收集
-    - [空间测绘](Security/渗透测试/信息收集/空间测绘.md) - 空间测绘信息收集资源
+    - [空间测绘](Security/信息收集/空间测绘.md) - 空间测绘信息收集资源
 - [安全资源.md](Security/安全资源.md)
   - 书籍资源
   - 文库资源
@@ -49,13 +49,18 @@
     - 密码找回
     - 越权漏洞
     - 支付漏洞 #TODO
-  - [XSS.md](Security/渗透测试/Web安全/XSS.md)  #TODO
-  - [未授权访问.md](Security/渗透测试/Web安全/未授权访问.md) #TODO
+  - [XSS.md](Security/Web安全/XSS.md) #TODO
+  - [未授权访问.md](Security/Web安全/未授权访问.md) #TODO
 - [漏洞赏金.md](Security/漏洞赏金.md) - 相关资源、相关案例、相关技巧、赏金平台
   - 相关案例
   - 相关技巧
   - 赏金平台
   - 公开数据
+
+### Network 网络技能
+
+- [TCP&IP](Network/TCP&IP.md) - TCP/IP 重点内容
+- [HTTP](Network/HTTP.md) - #TODO
 
 ### Develop 开发技能
 
@@ -78,11 +83,6 @@
 - [git](Integrated/git.md) 仓库管理、Push、Pull
 - [vim](Integrated/vim.md) vim编辑器相关
 - [VSCode](Integrated/VSCode.md) 快捷键、拓展、配置
-
-### Network 网络技能
-
-- [TCP&IP](Network/TCP&IP.md) - TCP/IP 重点内容
-- [HTTP](Network/HTTP.md) - #TODO
 
 ## 阅读建议
 
