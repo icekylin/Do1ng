@@ -30,51 +30,25 @@
   - [ScanTools](Security/安全工具/ScanTools.md) - 扫描工具
   - [TrafficTools](Security/安全工具/TrafficTools.md) - 流量工具
   - 信息收集
-    - [信息收集.md](Security/信息收集/信息收集.md)
-      - 信息收集概述
-      - 域名信息收集
-      - 子域名信息收集
-      - 站点信息收集
-      - 敏感信息收集
-      - 相关应用信息收集
-    - [空间测绘](Security/信息收集/空间测绘.md) - 空间测绘信息收集资源
-- [安全资源.md](Security/安全资源.md)
-  - 书籍资源
-  - 文库资源
-  - 文章资源
-  - 靶场资源
-  - 学习资源
+    - [信息收集.md](Security/信息收集/信息收集.md) - 信息收集方式汇总
+    - [空间测绘](Security/信息收集/空间测绘.md) - 空间测绘信息收集资源 #TODO
+- [安全资源.md](Security/安全资源.md) - 安全资源汇总
 - Web安全
-  - [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md) - 相关链接、相关案例
-    - 密码找回
-    - 越权漏洞
-    - 支付漏洞 #TODO
+  - [逻辑漏洞.md](Security/Web安全/逻辑漏洞.md) - 逻辑漏洞分类相关案例
   - [XSS.md](Security/Web安全/XSS.md) #TODO
   - [未授权访问.md](Security/Web安全/未授权访问.md) #TODO
 - [漏洞赏金.md](Security/漏洞赏金.md) - 相关资源、相关案例、相关技巧、赏金平台
-  - 相关案例
-  - 相关技巧
-  - 赏金平台
-  - 公开数据
 
 ### Network 网络技能
 
 - [TCP&IP](Network/TCP&IP.md) - TCP/IP 重点内容
-- [HTTP](Network/HTTP.md) - #TODO
+- [HTTP](Network/HTTP.md) - HTTP 重点内容
 
 ### Develop 开发技能
 
-- [编程学习资源.md](Develop/编程学习资源.md) 学习路线、相关资源、相关书籍
-  - Python
-    - 学习路线
-    - 学习资源
-  - Golang
-    - 学习路线
-    - 相关资源
-    - 相关书籍
-  - Javascript
-    - 学习路线
-    - 学习资源
+- Python
+  - [Python 基础.md](Develop/Python/Python%20基础.md)
+- [编程资源.md](Develop/编程资源.md) 学习路线、相关资源、相关书籍
 
 ### Integrated 杂项技能
 
@@ -108,6 +82,8 @@
 ## 更新日志
 
 ```
+2022-09-23
+  更新 Develop - Python 基础
 2022-09-20
   更新 Network - HTTP 重点内容
 2022-09-17
